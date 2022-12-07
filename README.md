@@ -12,7 +12,7 @@ A horrible accident has left the world. The evil Wizard called Exeor, using the 
 
 To run this pack smoothly I'll recommend to allocate about **10GB** to **12GB** amount of **RAM**.
 
-No needed **OptiFine** mod anymore. 
+**OptiFine** mod is incompatible in this modpack. 
 
 ## Features:
 
