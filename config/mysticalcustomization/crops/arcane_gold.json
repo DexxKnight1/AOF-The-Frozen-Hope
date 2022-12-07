@@ -1,0 +1,13 @@
+{
+  "name": "Arcane Gold",
+  "type": "mysticalagriculture:resource",
+  "tier": "mysticalagriculture:5",
+  "ingredient": {
+    "item": "forbidden_arcanus:arcane_gold_ingot"
+  },
+  "color": "FDD017",
+  "textures": {
+    "flower": "mysticalagriculture:block/flower_ingot",
+    "essence": "mysticalagriculture:item/essence_ingot"
+  }
+}

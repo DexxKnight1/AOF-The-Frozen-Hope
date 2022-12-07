@@ -1,0 +1,18 @@
+{
+  "type": "thermal:press",
+  "ingredients": [
+    {
+      "item": "forbidden_arcanus:processed_obsidian_block"
+    },
+    {
+      "item": "thermal:press_unpacking_die"
+    }
+  ],
+  "result": [
+    {
+      "item": "forbidden_arcanus:obsidian_ingot",
+      "count": 9
+    }
+  ],
+  "energy": 400
+}

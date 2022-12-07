@@ -1,0 +1,10 @@
+{
+  "group": "voidsteel_nugget",
+  "type": "minecraft:smelting",
+  "experience": 4,
+  "cookingtime": 200,
+  "ingredient": {
+    "tag": "forge:voidsteel_gear"
+  },
+  "result": "nourished_end:voidsteel_nugget"
+}

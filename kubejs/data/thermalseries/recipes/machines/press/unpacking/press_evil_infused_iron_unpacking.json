@@ -1,0 +1,18 @@
+{
+  "type": "thermal:press",
+  "ingredients": [
+    {
+      "item": "extrautilitiesrebirth:block_of_evil_infused_iron"
+    },
+    {
+      "item": "thermal:press_unpacking_die"
+    }
+  ],
+  "result": [
+    {
+      "item": "extrautilitiesrebirth:evil_infused_iron_ingot",
+      "count": 9
+    }
+  ],
+  "energy": 400
+}

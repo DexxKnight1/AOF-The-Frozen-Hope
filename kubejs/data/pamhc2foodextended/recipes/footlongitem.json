@@ -1,0 +1,30 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	
+	"ingredients":
+	[
+    {
+      "tag": "forge:tool_cuttingboard"
+    },
+	{	
+      "tag": "forge:bread"
+    },
+	{	
+      "tag": "forge:rawpork"
+    },
+	{	
+      "tag": "pamhc2:leafyvegetables"
+    },
+	{	
+      "tag": "forge:crops/tomato"
+    },
+	{	
+      "tag": "forge:condiments/mayonaise"
+    }
+
+	],
+	
+	"result": {"item": "pamhc2foodextended:footlongitem",
+	"count": 1}
+	
+}

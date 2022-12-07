@@ -1,0 +1,1624 @@
+{
+	id: "6EADD70261A9CB1A"
+	group: "02206CCEC528E0AB"
+	order_index: 1
+	filename: "powah"
+	title: "&cPowah"
+	icon: {
+		id: "powah:charged_snowball"
+		Count: 1b
+		tag: { }
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [{
+		x: -6.714285714285708d
+		y: -14.84821428571427d
+		width: 0.3d
+		height: 1.0d
+		rotation: 0.0d
+		image: "kubejs:textures/item/quest.png"
+		hover: [ ]
+		click: ""
+		dev: false
+		corner: false
+	}]
+	quests: [
+		{
+			icon: {
+				id: "powah:book"
+				Count: 1b
+				tag: { }
+			}
+			x: -7.5d
+			y: -14.25d
+			shape: "gear"
+			subtitle: "*Unlocked by completing the &b&l&oIron Pickaxe&r quest*"
+			description: [
+				"Powah is a tech mod that adds Various ways to generate, store, and transmit Forge Energy."
+				""
+				"Powah adds Furnators, Magmators, Solar Panels, Thermo Generators, and of course the Reactor multiblocks!"
+				""
+				"Powah! also adds the classic Energy Cables and Energy Cells, but also cool and unique mechanics such as the upgradable Ender Network, Player Transmitters, the Energizing crafting system, and a bunch of cool gadgets and items such as the Charged Snowball!"
+				""
+				"{image:kubejs:textures/item/powah.png width:185 height:71 align:1}"
+			]
+			dependencies: ["788CAEAFE7B79656"]
+			size: 1.5d
+			id: "6AF837D98FEB79E2"
+			tasks: [{
+				id: "4E863D6DA5A9B789"
+				type: "checkmark"
+				title: "&2&lPowah!"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "kubejs:textures/item/energy.png"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "57DD948EB2BECAA8"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "656BAB21AF859A04"
+					type: "item"
+					item: {
+						id: "minecraft:lava_bucket"
+						Count: 1b
+						tag: { }
+					}
+				}
+			]
+		}
+		{
+			title: "&2The Dielectric Paste"
+			x: -5.0d
+			y: -14.0d
+			dependencies: ["6AF837D98FEB79E2"]
+			id: "12EA6EFDCFB18A5C"
+			tasks: [{
+				id: "5795BBCF6D142D82"
+				type: "item"
+				item: {
+					id: "powah:dielectric_paste"
+					Count: 1b
+					tag: { }
+				}
+				count: 32L
+			}]
+			rewards: [
+				{
+					id: "490A5F0EA2B361FD"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "45CFAD2695B0F699"
+					type: "item"
+					item: {
+						id: "minecraft:coal"
+						Count: 1b
+						tag: { }
+					}
+					count: 2
+				}
+				{
+					id: "1513F36C78CB70AB"
+					type: "item"
+					item: {
+						id: "minecraft:clay_ball"
+						Count: 1b
+						tag: { }
+					}
+					count: 2
+				}
+			]
+		}
+		{
+			title: "&2The Dielectric Rods"
+			x: -4.0d
+			y: -13.0d
+			shape: "circle"
+			dependencies: ["12EA6EFDCFB18A5C"]
+			id: "3324DF0C217C024C"
+			tasks: [
+				{
+					id: "5B99D009C678680B"
+					type: "item"
+					item: {
+						id: "powah:dielectric_rod"
+						Count: 1b
+						tag: { }
+					}
+					count: 4L
+				}
+				{
+					id: "51F60111B57F947C"
+					type: "item"
+					item: {
+						id: "powah:dielectric_rod_horizontal"
+						Count: 1b
+						tag: { }
+					}
+					count: 4L
+				}
+			]
+			rewards: [
+				{
+					id: "44AA230D5DE0917A"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "30D1D0CC07F6F5EF"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 5351675120932028234L
+				}
+			]
+		}
+		{
+			title: "&2The Dielectric Casing"
+			x: -3.0d
+			y: -11.5d
+			shape: "rsquare"
+			dependencies: ["3324DF0C217C024C"]
+			id: "2AB169ADE96097AB"
+			tasks: [{
+				id: "3F0BD6348BCE9609"
+				type: "item"
+				item: {
+					id: "powah:dielectric_casing"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "3D1A673CFAB6BCF5"
+					type: "xp"
+					xp: 40
+				}
+				{
+					id: "704EAD8D7BBA6356"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 6813199617749196115L
+				}
+			]
+		}
+		{
+			x: -8.5d
+			y: -11.5d
+			shape: "hexagon"
+			hide_dependency_lines: true
+			dependencies: ["6AF837D98FEB79E2"]
+			id: "1758D38A1FA881C2"
+			tasks: [{
+				id: "4161181FCCB5AC61"
+				type: "item"
+				item: {
+					id: "powah:capacitor_basic"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "771105CB046637BC"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "542CA15DE0C668A3"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 5351675120932028234L
+				}
+			]
+		}
+		{
+			x: -9.5d
+			y: -12.0d
+			shape: "hexagon"
+			hide_dependency_lines: true
+			dependencies: ["1758D38A1FA881C2"]
+			id: "3A2C48292EB99914"
+			tasks: [{
+				id: "4D88B17F50B817ED"
+				type: "item"
+				item: {
+					id: "powah:capacitor_basic_large"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "1FF0CC300E60C79D"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "4877C550490D62C6"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 5351675120932028234L
+				}
+			]
+		}
+		{
+			x: -10.5d
+			y: -11.0d
+			shape: "hexagon"
+			hide_dependency_lines: true
+			dependencies: ["3A2C48292EB99914"]
+			id: "5F8A35D64AC0DF9B"
+			tasks: [{
+				id: "5965A1D7D8E11594"
+				type: "item"
+				item: {
+					id: "powah:capacitor_hardened"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "47FEDD110BE7D09A"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "2E4AA440E2D80186"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 4915960327715244389L
+				}
+				{
+					id: "427C2BC3AB15EDD0"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 4432288867142743846L
+				}
+			]
+		}
+		{
+			x: -11.5d
+			y: -12.0d
+			shape: "hexagon"
+			hide_dependency_lines: true
+			dependencies: ["5F8A35D64AC0DF9B"]
+			id: "460E9084B2F39C9A"
+			tasks: [{
+				id: "557A29A3B4C47D2B"
+				type: "item"
+				item: {
+					id: "powah:capacitor_blazing"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "025FB8B844331FDC"
+					type: "xp"
+					xp: 70
+				}
+				{
+					id: "104B331D6EF439F5"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 6468877635738169977L
+				}
+				{
+					id: "094CCA4FE4C71F1A"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 6813199617749196115L
+				}
+			]
+		}
+		{
+			x: -10.5d
+			y: -12.0d
+			shape: "hexagon"
+			hide_dependency_lines: true
+			dependencies: ["460E9084B2F39C9A"]
+			id: "68A9220DD6DF200E"
+			tasks: [{
+				id: "48C52E12429B698E"
+				type: "item"
+				item: {
+					id: "powah:capacitor_niotic"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "4DD0FC5AB2BD9B34"
+					type: "xp"
+					xp: 70
+				}
+				{
+					id: "1F382B79F268707B"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 6468877635738169977L
+				}
+				{
+					id: "319BA165967CB888"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 6813199617749196115L
+				}
+			]
+		}
+		{
+			x: -11.5d
+			y: -11.0d
+			shape: "hexagon"
+			hide_dependency_lines: true
+			dependencies: ["68A9220DD6DF200E"]
+			id: "00479FF67F78994D"
+			tasks: [{
+				id: "7602ED85E43B0DBF"
+				type: "item"
+				item: {
+					id: "powah:capacitor_spirited"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "1765B77AB0BF06DA"
+					type: "xp"
+					xp: 70
+				}
+				{
+					id: "4A9DA66F53CD0796"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 6468877635738169977L
+				}
+				{
+					id: "3BBA129477182AD8"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 6813199617749196115L
+				}
+			]
+		}
+		{
+			x: -12.5d
+			y: -11.5d
+			shape: "hexagon"
+			hide_dependency_lines: true
+			dependencies: ["00479FF67F78994D"]
+			id: "204401898F4CB4F5"
+			tasks: [{
+				id: "654A1B783211223C"
+				type: "item"
+				item: {
+					id: "powah:capacitor_nitro"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "39E3D137223E5D3B"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "369AB4F052415AB1"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 1375643567800692047L
+				}
+				{
+					id: "7858B65DD283ED42"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 687554054301909623L
+				}
+			]
+		}
+		{
+			title: "&2The Energizing Orb"
+			x: -3.0d
+			y: -8.0d
+			shape: "pentagon"
+			subtitle: "The Energizing Orb energizes items and need at least one Energizing Rod in range of 9x9 to work"
+			description: [
+				"The energizing speed depends on amount of roda and the rod tier(I/O rate)."
+				""
+				"The Orb does not require energy but the roads must be attached to any forge energy."
+				""
+				"When placing the orb/rod in range will automatically link to each other, aslo you can use the Wrench with the Link mode to re-link them."
+			]
+			dependencies: ["4BB72A952D4374D6"]
+			size: 1.3d
+			id: "01F6171999948717"
+			tasks: [{
+				id: "6607B95961FFF8E3"
+				type: "item"
+				item: {
+					id: "powah:energizing_orb"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "63A8E5DE3D841106"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "1DFAC620D15947F5"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 3256304039117744465L
+				}
+				{
+					id: "10A627E963CC33C3"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 6813199617749196115L
+				}
+			]
+		}
+		{
+			title: "&2The Energizing Rods"
+			x: -3.0d
+			y: -10.0d
+			subtitle: "The Energizing Roas transfers energy to the Energizing Orb"
+			description: [
+				"Higher tiers of the Energizing Rods transfers more FE/t :"
+				""
+				"Tier 1 - 100 FE/t"
+				"Tier 2 - 400 FE/t"
+				"Tier 3 - 1,000 FE/t"
+				"Tier 4 - 4,000 FE/t"
+				"Tier 5 - 10,000 FE/t"
+				"Tier 6 - 40,000 FE/t"
+				"Tier 7 - 200,000 FE/t"
+			]
+			dependencies: ["2AB169ADE96097AB"]
+			id: "4BB72A952D4374D6"
+			tasks: [{
+				id: "5B08F0918307F405"
+				type: "item"
+				item: {
+					id: "powah:energizing_rod_starter"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "60E83B9318ABE68E"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "606325CCEFF4DE2A"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 6813199617749196115L
+				}
+			]
+		}
+		{
+			x: -6.0d
+			y: -6.5d
+			dependencies: ["01F6171999948717"]
+			id: "42182C4C3AE97759"
+			tasks: [{
+				id: "2FF0E5359D0A56E8"
+				type: "item"
+				item: {
+					id: "powah:steel_energized"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "0E3534A8B687BF71"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "629B359E15A4D69A"
+					type: "item"
+					item: {
+						id: "powah:steel_energized"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "28ADF0E177C3A722"
+					type: "choice"
+					exclude_from_claim_all: true
+					table_id: 4056905653150789257L
+				}
+			]
+		}
+		{
+			x: -5.0d
+			y: -6.0d
+			dependencies: ["01F6171999948717"]
+			id: "31F71A2CA4B2B056"
+			tasks: [{
+				id: "7551F5C315D0143E"
+				type: "item"
+				item: {
+					id: "powah:crystal_blazing"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "6639F831835949A2"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "20B38606103B16F6"
+					type: "item"
+					item: {
+						id: "powah:crystal_blazing"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "1C3B8ECDF2EEAA4B"
+					type: "choice"
+					exclude_from_claim_all: true
+					table_id: 4056905653150789257L
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: -5.5d
+			dependencies: ["01F6171999948717"]
+			id: "2EED1295ED98D9EA"
+			tasks: [{
+				id: "6CCBED75BAA3BC2B"
+				type: "item"
+				item: {
+					id: "powah:crystal_niotic"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "588347930B844749"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "3E7352786DB507C0"
+					type: "item"
+					item: {
+						id: "powah:crystal_niotic"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "3BFF31C8E78D0457"
+					type: "choice"
+					exclude_from_claim_all: true
+					table_id: 4056905653150789257L
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: -5.0d
+			dependencies: ["01F6171999948717"]
+			id: "4836B7DD135117FA"
+			tasks: [{
+				id: "323683291BF5BC0C"
+				type: "item"
+				item: {
+					id: "powah:crystal_spirited"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "7EAC2C82214CE86A"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "5FFA882A710F5349"
+					type: "item"
+					item: {
+						id: "powah:crystal_spirited"
+						Count: 1b
+						tag: { }
+					}
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: -5.5d
+			dependencies: ["01F6171999948717"]
+			id: "1C8451F36BF31C75"
+			tasks: [{
+				id: "6CEFE1D0C527B5C0"
+				type: "item"
+				item: {
+					id: "powah:crystal_nitro"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "3B385F963CA8AB1F"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "5DFBC3301341A211"
+					type: "item"
+					item: {
+						id: "powah:crystal_nitro"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "6CC1B9B98BCD5A00"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 6363515282471183984L
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: -6.0d
+			dependencies: ["01F6171999948717"]
+			id: "7D5E01855110E18C"
+			tasks: [{
+				id: "06C0BAD778DA0116"
+				type: "item"
+				item: {
+					id: "powah:ender_core"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "167370C240815130"
+					type: "xp"
+					xp: 40
+				}
+				{
+					id: "7B437F857A1F4A00"
+					type: "item"
+					item: {
+						id: "powah:ender_core"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "793AF4A861C3DA22"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 6813199617749196115L
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -6.5d
+			dependencies: ["01F6171999948717"]
+			id: "3CBFA335F195FDF0"
+			tasks: [{
+				id: "53895102315088C9"
+				type: "item"
+				item: {
+					id: "powah:charged_snowball"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "5629675DA06513DD"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "7DDD485AEDDE6B65"
+					type: "item"
+					item: {
+						id: "powah:charged_snowball"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "3661B05A0047C30C"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 5351675120932028234L
+				}
+			]
+		}
+		{
+			title: "&2The Solar Panels"
+			x: 1.5d
+			y: -13.0d
+			subtitle: "The Solar Panel generates energy from sunlight"
+			description: [
+				"High tiers generate more FE/t and has higher energy output:"
+				""
+				"Tier 1 - 20 FE/t"
+				"Tier 2 - 60 FE/t"
+				"Tier 3 - 100 FE/t"
+				"Tier 4 - 200 FE/t"
+				"Tier 5 - 400 FE/t"
+				"Tier 6 - 800 FE/t"
+				"Tier 7 - 2,000 FE/t"
+			]
+			dependencies: ["2AB169ADE96097AB"]
+			id: "568ACEC3147DB70D"
+			tasks: [{
+				id: "5B77E79B73EC616F"
+				type: "item"
+				item: {
+					id: "powah:solar_panel_starter"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "45BCD5DADFA6F7F0"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "240681BF50861A0E"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 4432288867142743846L
+				}
+				{
+					id: "2C807C73A543F458"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 5351675120932028234L
+				}
+			]
+		}
+		{
+			title: "&2The Furnators"
+			x: -1.5d
+			y: -14.5d
+			subtitle: "The Furnator generates energy from Furnace fuel like coal, wood ..."
+			description: [
+				"High tiers generate more FE/t and has higher energy output:"
+				""
+				"Tier 1 - 20 FE/t"
+				"Tier 2 - 80 FE/t"
+				"Tier 3 - 200 FE/t"
+				"Tier 4 - 800 FE/t"
+				"Tier 5 - 2,000 FE/t"
+				"Tier 6 - 8,000 FE/t"
+				"Tier 7 - 40,000 FE/t"
+			]
+			dependencies: ["2AB169ADE96097AB"]
+			id: "4A3B9B3EA1E3F4F7"
+			tasks: [{
+				id: "3FE4439418910913"
+				type: "item"
+				item: {
+					id: "powah:furnator_starter"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "3FF2A969D38944C2"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "646675C59787A8F8"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 4432288867142743846L
+				}
+				{
+					id: "21B89D4722FF918A"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 5351675120932028234L
+				}
+			]
+		}
+		{
+			title: "&2The Magmators"
+			x: -0.5d
+			y: -14.0d
+			subtitle: "The Magmator generates energy from high temp fluids like lava"
+			description: [
+				"High tiers generate more FE/t and has higher energy output:"
+				""
+				"Tier 1 - 20 FE/t"
+				"Tier 2 - 80 FE/t"
+				"Tier 3 - 200 FE/t"
+				"Tier 4 - 800 FE/t"
+				"Tier 5 - 2,000 FE/t"
+				"Tier 6 - 8,000 FE/t"
+				"Tier 7 - 40,000 FE/t"
+			]
+			dependencies: ["2AB169ADE96097AB"]
+			id: "11B43B666A5AAFF8"
+			tasks: [{
+				id: "4DEDD858A39C9A0D"
+				type: "item"
+				item: {
+					id: "powah:magmator_starter"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "22C1C2A563320B58"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "551644DC59413D95"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 4432288867142743846L
+				}
+				{
+					id: "75AC52C4BD93CE90"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 5351675120932028234L
+				}
+			]
+		}
+		{
+			title: "&2The Thermo Generators"
+			x: 0.5d
+			y: -13.5d
+			subtitle: "The Thermo Generator generates energy from high temp blocks/fluids placed on top"
+			description: [
+				"High tiers generate more FE/t and has higher energy output:"
+				""
+				"Tier 1 - 20 FE/t"
+				"Tier 2 - 60 FE/t"
+				"Tier 3 - 100 FE/t"
+				"Tier 4 - 200 FE/t"
+				"Tier 5 - 400 FE/t"
+				"Tier 6 - 800 FE/t"
+				"Tier 7 - 2,000 FE/t"
+			]
+			dependencies: ["2AB169ADE96097AB"]
+			id: "0912AA2DF289A923"
+			tasks: [{
+				id: "2C40534E6A68F7A0"
+				type: "item"
+				item: {
+					id: "powah:thermo_generator_starter"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "10968E6689378B57"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "5FF1A0AA5D84A99E"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 4432288867142743846L
+				}
+				{
+					id: "075166B0D48E53BE"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 5351675120932028234L
+				}
+			]
+		}
+		{
+			title: "&2The Reactor"
+			x: 2.5d
+			y: -12.5d
+			subtitle: "The Reactor is a multi-block generator that use Uraninite as main fuel"
+			description: [
+				"To build it you'll need 36 Reactor blocks in your hand and placing them in a 3x4 replaceable area, then the Reactor will complete building itself automatically."
+				""
+				"High tiers of the Reactor blocks generates more FE/t and has higher energy output:"
+				""
+				"Tier 1 - 250 FE/t"
+				"Tier 2 - 1,000 FE/t"
+				"Tier 3 - 2,500 FE/t"
+				"Tier 4 - 10,000 FE/t"
+				"Tier 5 - 25,000 FE/t"
+				"Tier 6 - 100,000 FE/t"
+				"Tier 7 - 500,000 FE/t"
+			]
+			dependencies: ["2AB169ADE96097AB"]
+			id: "23F16CE55E993CEF"
+			tasks: [{
+				id: "591F02F527140D90"
+				type: "item"
+				item: {
+					id: "powah:reactor_starter"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "54BF2319FFA2E493"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "761943E6447DDCDC"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 4432288867142743846L
+				}
+				{
+					id: "1889922A750DFE6C"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 5351675120932028234L
+				}
+			]
+		}
+		{
+			x: -5.5d
+			y: -12.0d
+			dependencies: ["6AF837D98FEB79E2"]
+			id: "2ECC2F761A944433"
+			tasks: [{
+				id: "6759AE92BC9949E2"
+				type: "item"
+				item: {
+					id: "powah:aerial_pearl"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "6EE551AE403CEE13"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "1710B37AFDFD2717"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 4248343337893973070L
+				}
+			]
+		}
+		{
+			x: -6.5d
+			y: -10.0d
+			dependencies: ["502D5E3F6E497D60"]
+			id: "6251A255CF84A17F"
+			tasks: [{
+				id: "00F256231C02BB7C"
+				type: "item"
+				item: {
+					id: "powah:binding_card"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "3877D5C6F0A282D5"
+					type: "xp"
+					xp: 44
+				}
+				{
+					id: "7ED09BE8717FC3FE"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 6813199617749196115L
+				}
+			]
+		}
+		{
+			title: "&2The Player Transmitters"
+			x: -5.5d
+			y: -10.5d
+			subtitle: "The Player Transmitter charges items wirelessly in linked player inventory"
+			description: [
+				"High tiers of the Player Transmitter transfers more FE/t and has higher energy capacity:"
+				""
+				"Tier 1 - 1,000 FE/t"
+				"Tier 2 - 4,000 FE/t"
+				"Tier 3 - 10,00 FE/t"
+				"Tier 4 - 40,000 FE/t"
+				"Tier 5 - 100,000 FE/t"
+				"Tier 6 - 400,000 FE/t"
+				"Tier 7 - 2,000,000 FE/t"
+			]
+			dependencies: ["2E71F681C9005835"]
+			id: "502D5E3F6E497D60"
+			tasks: [{
+				id: "61DF06D836989BB5"
+				type: "item"
+				item: {
+					id: "powah:player_transmitter_starter"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "6C183A5B5721633B"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "1389C57C3B210E58"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 4432288867142743846L
+				}
+			]
+		}
+		{
+			x: -6.5d
+			y: -11.5d
+			dependencies: ["2ECC2F761A944433"]
+			id: "2E71F681C9005835"
+			tasks: [{
+				id: "26D3A43E4F41874E"
+				type: "item"
+				item: {
+					id: "powah:player_aerial_pearl"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "55F710C05E803A00"
+					type: "xp"
+					xp: 33
+				}
+				{
+					id: "27F0568821A30A09"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 3256304039117744465L
+				}
+			]
+		}
+		{
+			x: -6.0d
+			y: -9.0d
+			shape: "octagon"
+			dependencies: ["6251A255CF84A17F"]
+			id: "77D149C7D2BC5980"
+			tasks: [{
+				id: "178FDC06944DD30C"
+				type: "item"
+				item: {
+					id: "powah:binding_card_dim"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "6086D819C4AE3428"
+					type: "xp"
+					xp: 55
+				}
+				{
+					id: "36C7C27AAD147C19"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 3168213399534062586L
+				}
+				{
+					id: "2881BA606E4E71E9"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 4432288867142743846L
+				}
+			]
+		}
+		{
+			title: "Energy Cable"
+			x: -10.5d
+			y: -7.0d
+			subtitle: "The Cables trasfers power between machines"
+			description: [
+				"You can change tranfer mode of by right-clicking a cable using Wrench with Config mod selected."
+				""
+				"High tiers of the Cables transfers more FE/t :"
+				""
+				"Tier 1 - 500 FE/t"
+				"Tier 2 - 2,000 FE/t"
+				"Tier 3 - 5,000 FE/t"
+				"Tier 4 - 20,000 FE/t"
+				"Tier 5 - 50,000 FE/t"
+				"Tier 6 - 200,000 FE/t"
+				"Tier 7 - 1,000,000 FE/t"
+			]
+			dependencies: ["0A0323D507FD9E75"]
+			id: "45600FAEEBC62928"
+			tasks: [{
+				id: "225E931B2952273A"
+				type: "item"
+				item: {
+					id: "powah:energy_cable_starter"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "6232F28B38DB3CDB"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "3D15A6F81C252AD4"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 4248343337893973070L
+				}
+				{
+					id: "7208E69083693E9C"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 6813199617749196115L
+				}
+			]
+		}
+		{
+			title: "Ender Gate"
+			x: -12.0d
+			y: -7.0d
+			subtitle: "The Ender Gates trasfers energy between the adjecent blok and the Ender Network"
+			description: [
+				"Unlike the Ender Cell you can not upgrade the network from it."
+				""
+				"High tiers of the Ender Gates transfers more FE/t :"
+				""
+				"Tier 1 - 500 FE/t"
+				"Tier 2 - 2,000 FE/t"
+				"Tier 3 - 5,000 FE/t"
+				"Tier 4 - 20,000 FE/t"
+				"Tier 5 - 50,000 FE/t"
+				"Tier 6 - 200,000 FE/t"
+				"Tier 7 - 1,000,000 FE/t"
+			]
+			dependencies: ["25BD3E9F8BE9BE05"]
+			id: "2E9D06CD4E744623"
+			tasks: [{
+				id: "421F38D7EF22F4F8"
+				type: "item"
+				item: {
+					id: "powah:ender_gate_starter"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "48B582D0CBEB8254"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "1B46F6AE272789D6"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 4248343337893973070L
+				}
+				{
+					id: "0AD20692B9329FA4"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 6813199617749196115L
+				}
+			]
+		}
+		{
+			title: "&2The Energy Cells"
+			x: -10.5d
+			y: -8.0d
+			shape: "square"
+			subtitle: "The Energy Cells stores energy"
+			description: [
+				"Can also be used to add capacity to an Ender Network channel by Shift+clicking it to an Ender Cell GUI."
+				""
+				"If the Energy Cell contains energy then will also be applied to the Ender Network channel."
+			]
+			hide_dependency_lines: true
+			dependencies: ["2AB169ADE96097AB"]
+			id: "0A0323D507FD9E75"
+			tasks: [{
+				id: "38BBE34D4659F968"
+				type: "item"
+				item: {
+					id: "powah:energy_cell_starter"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "54589119DF886336"
+					type: "xp"
+					xp: 60
+				}
+				{
+					id: "7E7280815449E016"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 8533451183250182354L
+				}
+				{
+					id: "622971F93FB4DB97"
+					type: "choice"
+					exclude_from_claim_all: true
+					table_id: 4056905653150789257L
+				}
+			]
+		}
+		{
+			title: "&2The Ender Cells"
+			x: -12.0d
+			y: -8.0d
+			shape: "square"
+			subtitle: "The Ender Cells stores energy to a specific channel of the Ender Network"
+			description: [
+				"You can access the energy stored of a selected channel from anywhere in the world if the Ender Cell have an active channel with a valid capacity."
+				""
+				"High tiers of the Ender Cells transfers more FE/t :"
+				""
+				"Tier 1 - 1,000 FE/t"
+				"Tier 2 - 4,000 FE/t"
+				"Tier 3 - 10,00 FE/t"
+				"Tier 4 - 40,000 FE/t"
+				"Tier 5 - 100,000 FE/t"
+				"Tier 6 - 400,000 FE/t"
+				"Tier 7 - 2,000,000 FE/t"
+			]
+			hide_dependency_lines: true
+			dependencies: ["7D5E01855110E18C"]
+			id: "25BD3E9F8BE9BE05"
+			tasks: [{
+				id: "6F39621A4891A812"
+				type: "item"
+				item: {
+					id: "powah:ender_cell_starter"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "3EFB6251BD7393AF"
+					type: "xp"
+					xp: 60
+				}
+				{
+					id: "410AC01A2E9953B9"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 8533451183250182354L
+				}
+				{
+					id: "2BC98737F624CBD9"
+					type: "choice"
+					exclude_from_claim_all: true
+					table_id: 4056905653150789257L
+				}
+			]
+		}
+		{
+			title: "Energy Hopper"
+			x: -9.0d
+			y: -7.0d
+			subtitle: "The Energy Hopper charges chargeable items inside adjacent inventora like a chest"
+			description: [
+				"Higher tiers of the Energy Hoppers transfers more FE/t :"
+				""
+				"Tier 1 - 1,000 FE/t"
+				"Tier 2 - 4,000 FE/t"
+				"Tier 3 - 10,000 FE/t"
+				"Tier 4 - 40,000 FE/t"
+				"Tier 5 - 100,000 FE/t"
+				"Tier 6 - 400,000 FE/t"
+				"Tier 7 - 2,000,000 FE/t"
+			]
+			dependencies: ["7C5F67643E3C9DBA"]
+			id: "7CE8090935EAF059"
+			tasks: [{
+				id: "09992D6106539314"
+				type: "item"
+				item: {
+					id: "powah:energy_hopper_starter"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "7CA1D6BCF1944F38"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "5FB51961548A47FF"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 4248343337893973070L
+				}
+				{
+					id: "6EE2F4463F8FDA6E"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 6813199617749196115L
+				}
+			]
+		}
+		{
+			title: "&2The Energy Dischargers"
+			x: -9.0d
+			y: -8.0d
+			shape: "square"
+			subtitle: "The Energy Dischagers drains energy out of charged items"
+			description: [
+				"The drained energy stors to an internal buffer if then connected via cables to extract that stored power and re-using it again."
+				""
+				"Higher tiers of the Energy Dischargers drainss more FE/t :"
+				""
+				"Tier 1 - 1,000 FE/t"
+				"Tier 2 - 4,000 FE/t"
+				"Tier 3 - 10,000 FE/t"
+				"Tier 4 - 40,000 FE/t"
+				"Tier 5 - 100,000 FE/t"
+				"Tier 6 - 400,000 FE/t"
+				"Tier 7 - 2,000,000 FE/t"
+			]
+			hide_dependency_lines: true
+			dependencies: ["2AB169ADE96097AB"]
+			id: "7C5F67643E3C9DBA"
+			tasks: [{
+				id: "31EE2DB9CA19FC0E"
+				type: "item"
+				item: {
+					id: "powah:energy_discharger_starter"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "29F086A6D0ABC4A9"
+					type: "xp"
+					xp: 60
+				}
+				{
+					id: "4392DD27F1331525"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 8533451183250182354L
+				}
+				{
+					id: "0424B04B406E9AD8"
+					type: "choice"
+					exclude_from_claim_all: true
+					table_id: 4056905653150789257L
+				}
+			]
+		}
+		{
+			x: -9.5d
+			y: -11.0d
+			shape: "hexagon"
+			hide_dependency_lines: true
+			dependencies: ["1758D38A1FA881C2"]
+			id: "0D7ADFE61C916CD1"
+			tasks: [{
+				id: "469FD4D5CE492ADF"
+				type: "item"
+				item: {
+					id: "powah:capacitor_basic_tiny"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "4D0949971962A34E"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "45283CCE8DC298CD"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 5351675120932028234L
+				}
+			]
+		}
+		{
+			x: 2.0714285714285694d
+			y: -9.74107142857141d
+			shape: "octagon"
+			subtitle: "When applying a Lens of Ender to a Solar Panel will make it see through blocks"
+			hide_dependency_lines: true
+			dependencies: ["568ACEC3147DB70D"]
+			hide: true
+			id: "433CFC8FE53C77FE"
+			tasks: [{
+				id: "75A5A05E03C127AE"
+				type: "item"
+				item: {
+					id: "powah:lens_of_ender"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "3521BA24F1372BF5"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "571921B59F4BB508"
+					type: "item"
+					item: {
+						id: "powah:dry_ice"
+						Count: 1b
+						tag: { }
+					}
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -9.774999999999999d
+			shape: "gear"
+			description: [
+				"The Wrench has 3 modes:"
+				""
+				"- Crafting mode can change cables I/O configuration"
+				"- Link mod can link linkable blocks"
+				"- Rotate mod can rotate blocks horizontally"
+			]
+			hide_dependency_lines: true
+			dependencies: ["6AF837D98FEB79E2"]
+			hide: true
+			size: 1.15d
+			id: "6C48607434AE452A"
+			tasks: [{
+				id: "48FE97C731DE2A81"
+				type: "item"
+				item: {
+					id: "powah:wrench"
+					Count: 1b
+					tag: {
+						PowahWrenchNBT: { }
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "087AD0D0966E0A3B"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "65196CED9061BFBC"
+					type: "item"
+					item: {
+						id: "powah:dielectric_paste"
+						Count: 1b
+						tag: { }
+					}
+					count: 16
+				}
+			]
+		}
+		{
+			title: "&2The Batteries"
+			x: -10.5d
+			y: -9.5d
+			subtitle: "The Batteries charges items in player inventory"
+			description: [
+				"The Batteries can also be used to upgrade the capacity of a Ender Network channel by Shift clicking a Battery to an Ender Cell GUI."
+				""
+				"If the Battery contain energy then will also be applied to the Ender Network channel."
+				""
+				"Higher tiers of the Batteries transfers more FE/t :"
+				""
+				"Tier 1 - 1,000 FE/t"
+				"Tier 2 - 4,000 FE/t"
+				"Tier 3 - 10,000 FE/t"
+				"Tier 4 - 40,000 FE/t"
+				"Tier 5 - 100,000 FE/t"
+				"Tier 6 - 400,000 FE/t"
+				"Tier 7 - 2,000,000 FE/t"
+			]
+			hide_dependency_lines: true
+			dependencies: ["1758D38A1FA881C2"]
+			id: "6BB91AB27B205A41"
+			tasks: [{
+				id: "3ADD91E9D003EEB6"
+				type: "item"
+				item: {
+					id: "powah:battery_starter"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "6EF8893D67D5D0CD"
+					type: "xp"
+					xp: 80
+				}
+				{
+					id: "285D40C891B2EB8A"
+					type: "choice"
+					exclude_from_claim_all: true
+					table_id: 4056905653150789257L
+				}
+				{
+					id: "6AE24CBA5B45495D"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 6813199617749196115L
+				}
+			]
+		}
+	]
+}

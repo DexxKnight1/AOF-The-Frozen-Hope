@@ -1,0 +1,18 @@
+{
+  "type": "thermal:press",
+  "ingredients": [
+    {
+      "item": "aquaculture:neptunium_block"
+    },
+    {
+      "item": "thermal:press_unpacking_die"
+    }
+  ],
+  "result": [
+    {
+      "item": "aquaculture:neptunium_ingot",
+      "count": 9
+    }
+  ],
+  "energy": 400
+}

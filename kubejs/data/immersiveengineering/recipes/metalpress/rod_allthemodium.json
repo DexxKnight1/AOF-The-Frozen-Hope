@@ -1,0 +1,21 @@
+{
+    "type":"immersiveengineering:metal_press",
+    "mold":"immersiveengineering:mold_rod",
+    "result":{
+        "count":1,
+        "base_ingredient":{
+            "tag":"forge:rods/allthemodium"
+            }
+    },
+    "conditions":[{
+        "value":{
+            "tag":"forge:rods/allthemodium",
+            "type":"forge:tag_empty"
+        },
+        "type":"forge:not"
+    }],
+    "input":{
+        "tag":"forge:ingots/allthemodium"
+    },
+    "energy":3500
+}

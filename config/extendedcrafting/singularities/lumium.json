@@ -1,0 +1,10 @@
+{
+    "name": "Lumium",
+    "colors": [
+        "FFFF00",
+        "FFFF33"
+    ],
+    "ingredient": {
+        "item": "alltheores:lumium_ingot"
+    }
+}

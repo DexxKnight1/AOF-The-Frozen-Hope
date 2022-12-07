@@ -1,0 +1,5 @@
+
+["Super Ores Options"]
+	#Set this value to true if you'd like all ore configuration to be re-generated, WARNING: All your previous changes will be reset!
+	generateDefaults = false
+

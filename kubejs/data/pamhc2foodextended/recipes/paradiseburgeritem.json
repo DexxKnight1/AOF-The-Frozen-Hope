@@ -1,0 +1,36 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	
+	"ingredients":
+	[
+    {
+      "tag": "forge:tool_skillet"
+    },
+	{	
+      "tag": "forge:rawbeef"
+    },
+	{	
+      "tag": "forge:cheese"
+    },
+	{	
+      "tag": "forge:condiments/relish"
+    },
+	{	
+      "tag": "forge:bread"
+    },
+	{	
+      "tag": "pamhc2:leafyvegetables"
+    },
+	{	
+      "tag": "forge:crops/tomato"
+    },
+	{	
+      "tag": "forge:condiments"
+    }
+	
+	],
+	
+	"result": {"item": "pamhc2foodextended:paradiseburgeritem",
+	"count": 1}
+	
+}

@@ -1,0 +1,183 @@
+{
+	id: "4A44F82B0872FF4A"
+	order_index: 16
+	title: "Random Reward"
+	loot_size: 1
+	hide_tooltip: true
+	use_title: true
+	rewards: [
+		{ item: "minecraft:ender_pearl", count: 16, weight: 4 }
+		{ item: "minecraft:redstone", count: 16, weight: 4 }
+		{ item: "minecraft:glowstone_dust", count: 16, weight: 4 }
+		{
+			item: {
+				id: "thermal:sawdust"
+				Count: 1b
+				tag: { }
+			}
+			count: 16
+			weight: 4
+		}
+		{ item: "minecraft:gunpowder", count: 16, weight: 4 }
+		{ item: "thermal:lead_dust", count: 16, weight: 4 }
+		{ item: "thermal:diamond_dust", count: 16, weight: 4 }
+		{ item: "thermal:nickel_dust", count: 16, weight: 4 }
+		{
+			item: {
+				id: "thermal:lapis_dust"
+				Count: 1b
+				tag: { }
+			}
+			count: 16
+			weight: 4
+		}
+		{ item: "minecraft:blaze_powder", count: 16, weight: 4 }
+		{ item: "thermal:silver_dust", count: 16, weight: 4 }
+		{ item: "thermal:tin_dust", count: 16, weight: 4 }
+		{ item: "thermal:copper_dust", count: 16, weight: 4 }
+		{ item: "thermal:emerald_dust", count: 16, weight: 4 }
+		{ item: "minecraft:coal", count: 16, weight: 4 }
+		{
+			item: {
+				id: "thermal:quartz_dust"
+				Count: 1b
+				tag: { }
+			}
+			count: 16
+			weight: 4
+		}
+		{
+			item: {
+				id: "ae2:certus_quartz_dust"
+				Count: 1b
+				tag: { }
+			}
+			count: 16
+			weight: 4
+		}
+		{
+			item: {
+				id: "ae2:fluix_dust"
+				Count: 1b
+				tag: { }
+			}
+			count: 16
+			weight: 4
+		}
+		{ item: "minecraft:charcoal", count: 16, weight: 4 }
+		{ item: "immersiveengineering:coal_coke", count: 16, weight: 4 }
+		{ item: "minecraft:glass", count: 16, weight: 4 }
+		{ item: "minecraft:obsidian", count: 16, weight: 4 }
+		{ item: "minecraft:stone", count: 16, weight: 4 }
+		{ item: "minecraft:white_wool", count: 16, weight: 4 }
+		{ item: "minecraft:piston", count: 4, weight: 4 }
+		{ item: "minecraft:sticky_piston", count: 4, weight: 4 }
+		{ item: "minecraft:hopper", count: 6, weight: 4 }
+		{ item: "minecraft:bricks", count: 16, weight: 4 }
+		{ item: "minecraft:cobweb", count: 16, weight: 4 }
+		{ item: "minecraft:slime_ball", count: 16, weight: 4 }
+		{ item: "minecraft:egg", count: 16, weight: 4 }
+		{ item: "minecraft:torch", count: 16, weight: 4 }
+		{ item: "minecraft:redstone_torch", count: 16, weight: 4 }
+		{ item: "torchmaster:feral_flare_lantern", count: 2, weight: 4 }
+		{ item: "minecraft:dark_prismarine", count: 16, weight: 4 }
+		{ item: "minecraft:prismarine_shard", count: 16, weight: 4 }
+		{ item: "minecraft:prismarine_crystals", count: 16, weight: 4 }
+		{ item: "minecraft:sea_lantern", count: 8, weight: 4 }
+		{ item: "minecraft:glowstone", count: 8, weight: 4 }
+		{ item: "minecraft:crying_obsidian", count: 16, weight: 4 }
+		{ item: "minecraft:iron_ingot", count: 16, weight: 4 }
+		{ item: "alltheores:lead_ingot", count: 16, weight: 4 }
+		{ item: "botania:mana_pearl", count: 16, weight: 4 }
+		{ item: "mekanism:alloy_infused", count: 16, weight: 4 }
+		{ item: "mekanism:basic_control_circuit", count: 16, weight: 4 }
+		{ item: "rftoolsbase:dimensionalshard", count: 16, weight: 4 }
+		{ item: "minecraft:blaze_rod", count: 16, weight: 4 }
+		{ item: "naturesaura:gold_powder", count: 16, weight: 4 }
+		{
+			item: {
+				id: "thermal:sulfur"
+				Count: 1b
+				tag: { }
+			}
+			count: 16
+			weight: 4
+		}
+		{ item: "thermal:niter_dust", count: 16, weight: 4 }
+		{ item: "evilcraft:dark_gem_crushed", count: 16, weight: 4 }
+		{
+			item: {
+				id: "forbidden_arcanus:stellarite_piece"
+				Count: 1b
+				tag: { }
+			}
+			weight: 4
+		}
+		{ item: "bloodmagic:soulsnare", count: 16, weight: 4 }
+		{
+			item: {
+				id: "mna:vinteum_dust"
+				Count: 1b
+				tag: { }
+			}
+			count: 16
+			weight: 4
+		}
+		{ item: "fluxnetworks:flux_dust", count: 16, weight: 4 }
+		{ item: "forbidden_arcanus:arcane_crystal_dust", count: 8, weight: 4 }
+		{ item: "forbidden_arcanus:mundabitur_dust", count: 8, weight: 4 }
+		{ item: "lazierae2:carbonic_fluix_dust", count: 8, weight: 4 }
+		{
+			item: {
+				id: "ftbic:mixed_metal_blend"
+				Count: 1b
+				tag: { }
+			}
+			count: 8
+			weight: 4
+		}
+		{ item: "forbidden_arcanus:obsidian_with_iron", count: 8, weight: 4 }
+		{ item: "minecraft:totem_of_undying", weight: 4 }
+		{ item: "allthecompressed:sand_block_9x", weight: 4 }
+		{ item: "allthecompressed:hay_block_1x", weight: 4 }
+		{ item: "allthecompressed:terracotta_block_3x", weight: 4 }
+		{ item: "allthecompressed:clay_block_5x", weight: 4 }
+		{ item: "allthecompressed:snow_block_9x", weight: 4 }
+		{ item: "dankstorage:dank_3", weight: 4 }
+		{ item: "enderstorage:ender_chest", weight: 4 }
+		{ item: "alexsmobs:soul_heart", weight: 4 }
+		{ item: "pipez:item_pipe", count: 12, weight: 4 }
+		{ item: "pipez:fluid_pipe", count: 12, weight: 4 }
+		{ item: "pipez:energy_pipe", count: 12, weight: 4 }
+		{ item: "pipez:gas_pipe", count: 12, weight: 4 }
+		{
+			item: {
+				id: "wstweaks:blaze_blade"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "sophisticatedstorage:netherite_shulker_box"
+				Count: 1b
+				tag: {
+					mainColor: 16701501
+					accentColor: 8439583
+				}
+			}
+			weight: 3
+		}
+	]
+	loot_crate: {
+		drops: {
+			boss: 0
+			passive: 0
+			monster: 0
+		}
+		color: 16711680
+		string_id: "random_reward"
+	}
+}

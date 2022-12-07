@@ -1,0 +1,36 @@
+{
+  "input": [
+    {
+      "item": "minecraft:dirt"
+    },
+    {
+      "tag": "industrialforegoing:machine_frame/pity"
+    },
+    {
+      "item": "minecraft:dirt"
+    },
+    {
+      "item": "minecraft:rotten_flesh"
+    },
+    {
+      "item": "minecraft:rotten_flesh"
+    },
+    {
+      "tag": "forge:gears/iron"
+    },
+    {
+      "tag": "forge:ingots/aluminum"
+    },
+    {
+      "tag": "forge:gears/iron"
+    }
+
+  ],
+  "inputFluid": "{FluidName:\"industrialforegoing:meat\",Amount:1000}",
+  "processingTime": 100,
+  "output": {
+    "item": "industrialforegoing:mechanical_dirt",
+    "count": 1
+  },
+  "type": "industrialforegoing:dissolution_chamber"
+}

@@ -1,0 +1,10 @@
+{
+    "name": "Iridium",
+    "colors": [
+        "797979",
+        "B6B6B4"
+    ],
+    "ingredient": {
+        "item": "alltheores:iridium_ingot"
+    }
+}

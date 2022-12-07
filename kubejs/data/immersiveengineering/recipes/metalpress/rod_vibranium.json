@@ -1,0 +1,21 @@
+{
+    "type":"immersiveengineering:metal_press",
+    "mold":"immersiveengineering:mold_rod",
+    "result":{
+        "count":1,
+        "base_ingredient":{
+            "tag":"forge:rods/vibranium"
+            }
+    },
+    "conditions":[{
+        "value":{
+            "tag":"forge:rods/vibranium",
+            "type":"forge:tag_empty"
+        },
+        "type":"forge:not"
+    }],
+    "input":{
+        "tag":"forge:ingots/vibranium"
+    },
+    "energy":3500
+}

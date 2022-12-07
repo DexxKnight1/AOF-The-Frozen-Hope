@@ -1,0 +1,288 @@
+{
+	id: "3AF525C1D3114C4E"
+	order_index: 12
+	title: "Miner's Bag"
+	icon: {
+		id: "blue_skies:loot_bag_starlit_crusher"
+		Count: 1b
+		tag: {
+			LootTable: "blue_skies:loot_bags/starlit_crusher/common"
+			Rarity: 0
+		}
+	}
+	loot_size: 1
+	hide_tooltip: true
+	use_title: true
+	rewards: [
+		{ item: "minecraft:gold_ore", count: 8 }
+		{ item: "minecraft:iron_ore", count: 8 }
+		{ item: "minecraft:coal_ore", count: 8 }
+		{ item: "minecraft:nether_gold_ore", count: 8 }
+		{
+			item: {
+				id: "minecraft:lapis_ore"
+				Count: 1b
+				tag: { }
+			}
+			count: 8
+		}
+		{ item: "minecraft:diamond_ore", count: 8 }
+		{
+			item: {
+				id: "minecraft:redstone_ore"
+				Count: 1b
+				tag: { }
+			}
+			count: 8
+		}
+		{ item: "minecraft:emerald_ore", count: 8 }
+		{
+			item: {
+				id: "minecraft:nether_quartz_ore"
+				Count: 1b
+				tag: { }
+			}
+			count: 8
+		}
+		{ item: "evilcraft:dark_ore", count: 8 }
+		{
+			item: {
+				id: "alltheores:uranium_ore"
+				Count: 1b
+				tag: { }
+			}
+			count: 8
+		}
+		{
+			item: {
+				id: "alltheores:sapphire_ore"
+				Count: 1b
+				tag: { }
+			}
+			count: 8
+		}
+		{
+			item: {
+				id: "powah:uraninite_ore_dense"
+				Count: 1b
+				tag: { }
+			}
+			count: 8
+		}
+		{
+			item: {
+				id: "allthemodium:allthemodium_ore"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			item: {
+				id: "alltheores:tin_ore"
+				Count: 1b
+				tag: { }
+			}
+			count: 8
+		}
+		{
+			item: {
+				id: "thermal:apatite_ore"
+				Count: 1b
+				tag: { }
+			}
+			count: 8
+		}
+		{
+			item: {
+				id: "thermal:cinnabar_ore"
+				Count: 1b
+				tag: { }
+			}
+			count: 8
+		}
+		{
+			item: {
+				id: "thermal:niter_ore"
+				Count: 1b
+				tag: { }
+			}
+			count: 8
+		}
+		{
+			item: {
+				id: "thermal:sulfur_ore"
+				Count: 1b
+				tag: { }
+			}
+			count: 8
+		}
+		{
+			item: {
+				id: "minecraft:copper_ore"
+				Count: 1b
+				tag: { }
+			}
+			count: 8
+		}
+		{
+			item: {
+				id: "alltheores:lead_ore"
+				Count: 1b
+				tag: { }
+			}
+			count: 8
+		}
+		{
+			item: {
+				id: "alltheores:silver_ore"
+				Count: 1b
+				tag: { }
+			}
+			count: 8
+		}
+		{
+			item: {
+				id: "alltheores:nickel_ore"
+				Count: 1b
+				tag: { }
+			}
+			count: 8
+		}
+		{
+			item: {
+				id: "blue_skies:everbright_moonstone_ore"
+				Count: 1b
+				tag: { }
+			}
+			count: 8
+		}
+		{
+			item: {
+				id: "alltheores:zinc_ore"
+				Count: 1b
+				tag: { }
+			}
+			count: 8
+		}
+		{
+			item: {
+				id: "ae2:quartz_ore"
+				Count: 1b
+				tag: { }
+			}
+			count: 8
+		}
+		{ item: "mysticalagriculture:prosperity_ore", count: 8 }
+		{ item: "mysticalagriculture:inferium_ore", count: 8 }
+		{
+			item: {
+				id: "alltheores:ruby_ore"
+				Count: 1b
+				tag: { }
+			}
+			count: 8
+		}
+		{
+			item: {
+				id: "mna:vinteum_ore"
+				Count: 1b
+				tag: { }
+			}
+			count: 8
+		}
+		{
+			item: {
+				id: "alltheores:aluminum_ore"
+				Count: 1b
+				tag: { }
+			}
+			count: 8
+		}
+		{
+			item: {
+				id: "alltheores:osmium_ore"
+				Count: 1b
+				tag: { }
+			}
+			count: 8
+		}
+		{
+			item: {
+				id: "allthemodium:vibranium_ore"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			item: {
+				id: "allthemodium:unobtainium_ore"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			item: {
+				id: "alltheores:platinum_ore"
+				Count: 1b
+				tag: { }
+			}
+			count: 8
+		}
+		{
+			item: {
+				id: "alltheores:iridium_ore"
+				Count: 1b
+				tag: { }
+			}
+			count: 8
+		}
+		{
+			item: {
+				id: "forbidden_arcanus:arcane_crystal_ore"
+				Count: 1b
+				tag: { }
+			}
+			count: 8
+		}
+		{
+			item: {
+				id: "mekanism:fluorite_ore"
+				Count: 1b
+				tag: { }
+			}
+			count: 8
+		}
+		{
+			item: {
+				id: "rftoolsbase:dimensionalshard_overworld"
+				Count: 1b
+				tag: { }
+			}
+			count: 8
+		}
+		{
+			item: {
+				id: "byg:ametrine_ore"
+				Count: 1b
+				tag: { }
+			}
+			count: 8
+		}
+		{
+			item: {
+				id: "byg:pendorite_ore"
+				Count: 1b
+				tag: { }
+			}
+			count: 8
+		}
+		{
+			item: {
+				id: "byg:emeraldite_ore"
+				Count: 1b
+				tag: { }
+			}
+			count: 8
+		}
+	]
+}

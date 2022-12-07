@@ -1,0 +1,25 @@
+{
+    "type":"mekanism:mek_data",
+    "result":{
+        "item":"mekanism:network_reader"
+    },
+    "pattern":[
+        " G ",
+        "AEA",
+        " S "
+    ],
+    "key":{
+        "G":{
+            "item":"ftbic:fuse"
+        },
+        "S":{
+            "tag":"forge:ingots/steel"
+        },
+        "A":{
+            "tag":"mekanism:alloys/infused"
+        },
+        "E":{
+            "item":"mekanism:energy_tablet"
+        }
+    }
+}

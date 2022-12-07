@@ -1,0 +1,648 @@
+{
+	id: "4438FFDF47614965"
+	order_index: 9
+	title: "Record's Bag"
+	icon: {
+		id: "blue_skies:loot_bag_summoner"
+		Count: 1b
+		tag: {
+			LootTable: "blue_skies:loot_bags/summoner/common"
+			Rarity: 0
+		}
+	}
+	loot_size: 1
+	hide_tooltip: true
+	use_title: true
+	rewards: [
+		{ item: "minecraft:music_disc_13" }
+		{ item: "minecraft:music_disc_cat" }
+		{ item: "minecraft:music_disc_blocks" }
+		{ item: "minecraft:music_disc_chirp" }
+		{ item: "minecraft:music_disc_far" }
+		{ item: "minecraft:music_disc_mall" }
+		{ item: "minecraft:music_disc_mellohi" }
+		{ item: "minecraft:music_disc_stal" }
+		{ item: "minecraft:music_disc_strad" }
+		{ item: "minecraft:music_disc_ward" }
+		{ item: "minecraft:music_disc_11" }
+		{ item: "minecraft:music_disc_wait" }
+		{ item: "minecraft:music_disc_pigstep" }
+		{ item: "biomesoplenty:music_disc_wanderer" }
+		{ item: "botania:record_gaia_1" }
+		{ item: "botania:record_gaia_2" }
+		{ item: "alexsmobs:music_disc_thime" }
+		{ item: "undergarden:music_disc_mammoth" }
+		{ item: "undergarden:music_disc_limax_maximus" }
+		{ item: "undergarden:music_disc_relict" }
+		{ item: "undergarden:music_disc_gloomper_anthem" }
+		{
+			item: {
+				id: "snowpig:music_disc_frosty_snig"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			item: {
+				id: "ob_aquamirae:musicdischorizon"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			item: {
+				id: "ob_aquamirae:music_disc_forsaken_drownage"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			item: {
+				id: "mowziesmobs:music_disc_petiole"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			item: {
+				id: "morediscs:music_disc_tall"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			item: {
+				id: "morediscs:music_disc_42"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			item: {
+				id: "morediscs:music_disc_activate"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			item: {
+				id: "morediscs:music_disc_aether"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			item: {
+				id: "morediscs:music_disc_aggressionegression"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			item: {
+				id: "morediscs:music_disc_alternatedimension"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			item: {
+				id: "morediscs:music_disc_amethyzied"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			item: {
+				id: "morediscs:music_disc_ancientruins"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			item: {
+				id: "morediscs:music_disc_anti"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			item: {
+				id: "morediscs:music_disc_avian"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			item: {
+				id: "morediscs:music_disc_before"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			item: {
+				id: "morediscs:music_disc_blazetrap"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			item: {
+				id: "morediscs:music_disc_castle"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			item: {
+				id: "morediscs:music_disc_chill"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			item: {
+				id: "morediscs:music_disc_chop"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			item: {
+				id: "morediscs:music_disc_chorus"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			item: {
+				id: "morediscs:music_disc_clouds"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			item: {
+				id: "morediscs:music_disc_dear_diary"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			item: {
+				id: "morediscs:music_disc_desert"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			item: {
+				id: "morediscs:music_disc_disc"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			item: {
+				id: "morediscs:music_disc_dive"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			item: {
+				id: "morediscs:music_disc_dreams"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			item: {
+				id: "morediscs:music_disc_droopylovesjean"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			item: {
+				id: "morediscs:music_disc_drowned_anthem"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			item: {
+				id: "morediscs:music_disc_enderwalk"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			item: {
+				id: "morediscs:music_disc_flight_of_the_voids_ship"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			item: {
+				id: "morediscs:music_disc_flyingships"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			item: {
+				id: "morediscs:music_disc_forest"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			item: {
+				id: "morediscs:music_disc_hue"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			item: {
+				id: "morediscs:music_disc_intothejungle"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			item: {
+				id: "morediscs:music_disc_jungle"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			item: {
+				id: "morediscs:music_disc_jungler"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			item: {
+				id: "morediscs:music_disc_justyhebeginning"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			item: {
+				id: "morediscs:music_disc_left_shift"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			item: {
+				id: "morediscs:music_disc_lgm"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			item: {
+				id: "morediscs:music_disc_mangrove_swamp"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			item: {
+				id: "morediscs:music_disc_mesa_depth"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			item: {
+				id: "morediscs:music_disc_mush_roam"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			item: {
+				id: "morediscs:music_disc_nostalg"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			item: {
+				id: "morediscs:music_disc_omen"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			item: {
+				id: "morediscs:music_disc_passion"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			item: {
+				id: "morediscs:music_disc_planettech"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			item: {
+				id: "morediscs:music_disc_potion_of_swiftness"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			item: {
+				id: "morediscs:music_disc_raid"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			item: {
+				id: "morediscs:music_disc_rain"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			item: {
+				id: "morediscs:music_disc_rainbows"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			item: {
+				id: "morediscs:music_disc_range"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			item: {
+				id: "morediscs:music_disc_ravage"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			item: {
+				id: "morediscs:music_disc_reloaded"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			item: {
+				id: "morediscs:music_disc_retri"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			item: {
+				id: "morediscs:music_disc_sand"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			item: {
+				id: "morediscs:music_disc_scopophobia"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			item: {
+				id: "morediscs:music_disc_scorched"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			item: {
+				id: "morediscs:music_disc_seeds"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			item: {
+				id: "morediscs:music_disc_shallow"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			item: {
+				id: "morediscs:music_disc_shroom"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			item: {
+				id: "morediscs:music_disc_silence"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			item: {
+				id: "morediscs:music_disc_sky"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			item: {
+				id: "morediscs:music_disc_soul"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			item: {
+				id: "morediscs:music_disc_sound"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			item: {
+				id: "morediscs:music_disc_spiral"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			item: {
+				id: "morediscs:music_disc_squiggles"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			item: {
+				id: "morediscs:music_disc_stridehop"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			item: {
+				id: "morediscs:music_disc_strikethemdown"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			item: {
+				id: "morediscs:music_disc_submerge"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			item: {
+				id: "morediscs:music_disc_tearsofjoy"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			item: {
+				id: "morediscs:music_disc_technobladeneverdiesatleastinourhearts"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			item: {
+				id: "morediscs:music_disc_thebrightside"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			item: {
+				id: "morediscs:music_disc_thedarkside"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			item: {
+				id: "morediscs:music_disc_thelostsoul"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			item: {
+				id: "morediscs:music_disc_thespeedrunner"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			item: {
+				id: "morediscs:music_disc_thesyndicate"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			item: {
+				id: "morediscs:music_disc_theunfinishedsymphony"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			item: {
+				id: "morediscs:music_disc_tide"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			item: {
+				id: "morediscs:music_disc_vengeful"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			item: {
+				id: "morediscs:music_disc_victory"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			item: {
+				id: "morediscs:music_disc_void"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			item: {
+				id: "morediscs:music_disc_warden"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			item: {
+				id: "morediscs:music_disc_warped_forest"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			item: {
+				id: "morediscs:music_disc_waves"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			item: {
+				id: "morediscs:music_disc_weepingsouls"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			item: {
+				id: "morediscs:music_disc_witherdance"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			item: {
+				id: "minecraft:music_disc_otherside"
+				Count: 1b
+				tag: { }
+			}
+		}
+	]
+}

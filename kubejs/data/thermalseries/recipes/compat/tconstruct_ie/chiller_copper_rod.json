@@ -1,0 +1,24 @@
+{
+  "type": "thermal:chiller",
+  "ingredients": [
+    {
+      "fluid": "tconstruct:molten_copper",
+      "amount": 45
+    },
+    {
+      "item": "thermal:chiller_rod_cast"
+    }
+  ],
+  "result": [
+    {
+      "tag": "forge:rods/copper"
+    }
+  ],
+  "energy": 2400,
+  "conditions": [
+    {
+      "type": "thermal:flag",
+      "flag": "mod_tconstruct"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+    "type":"immersiveengineering:metal_press",
+    "mold":"immersiveengineering:mold_plate",
+    "result":{
+        "item":"allthemodium:allthemodium_plate"
+    },
+    "input":{
+        "tag":"forge:ingots/allthemodium"
+    },
+    "energy":2400
+}

@@ -1,0 +1,18 @@
+{
+  "type": "thermal:press",
+  "ingredients": [
+    {
+      "item": "mysticalagriculture:supremium_ingot_block"
+    },
+    {
+      "item": "thermal:press_unpacking_die"
+    }
+  ],
+  "result": [
+    {
+      "item": "mysticalagriculture:supremium_ingot",
+      "count": 9
+    }
+  ],
+  "energy": 400
+}

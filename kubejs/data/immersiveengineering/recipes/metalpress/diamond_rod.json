@@ -1,0 +1,14 @@
+{
+    "type":"immersiveengineering:metal_press",
+    "mold":"immersiveengineering:mold_rod",
+    "result":{
+        "count":2,
+        "tag":"forge:rods/diamond"
+    },
+    "input":{
+        "base_ingredient":{
+            "item":"minecraft:diamond"
+        }
+    },
+    "energy":3200
+}

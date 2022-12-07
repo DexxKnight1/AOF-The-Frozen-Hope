@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "morestoragedrawers:block/botania_mossy_dreamwood_half_1"
+    },
+    "facing=south": {
+      "model": "morestoragedrawers:block/botania_mossy_dreamwood_half_1",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "morestoragedrawers:block/botania_mossy_dreamwood_half_1",
+      "y": 270
+    },
+    "facing=east": {
+      "model": "morestoragedrawers:block/botania_mossy_dreamwood_half_1",
+      "y": 90
+    }
+  }
+}

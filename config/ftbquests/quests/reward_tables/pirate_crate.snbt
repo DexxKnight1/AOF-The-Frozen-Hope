@@ -1,0 +1,235 @@
+{
+	id: "6A12F01DB889BA00"
+	order_index: 5
+	title: "Pirate Crate"
+	loot_size: 1
+	hide_tooltip: true
+	use_title: true
+	rewards: [
+		{
+			item: {
+				id: "nourished_end:starsent_ingot"
+				Count: 1b
+				tag: { }
+			}
+			count: 3
+		}
+		{
+			item: {
+				id: "cyclic:charm_magicdefense"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "reliquary:witherless_rose"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{ item: "mekanism:personal_chest" }
+		{
+			item: {
+				id: "botania:monocle"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{ item: "aquaculture:neptunes_bounty" }
+		{ item: "vampirism:hunter_intel_2" }
+		{ item: "twilightforest:magic_map_focus" }
+		{ item: "vampirism:pure_blood_4" }
+		{ item: "vampirism:vampire_blood_bottle" }
+		{ item: "bloodmagic:bloodlightsigil" }
+		{
+			item: {
+				id: "redstone_arsenal:flux_wrench"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			item: {
+				id: "powah:solar_panel_blazing"
+				Count: 1b
+				tag: { }
+			}
+			count: 2
+		}
+		{
+			item: {
+				id: "forbidden_arcanus:reinforced_arcane_golden_blacksmith_gavel"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			count: 4
+		}
+		{
+			item: {
+				id: "relics:arrow_quiver"
+				Count: 1b
+				tag: {
+					abilities: {
+						receptacle: {
+							stats: {
+								slots: 3.206d
+							}
+							points: 0
+						}
+						agility: {
+							stats: {
+								modifier: 1.0d
+							}
+							points: 0
+						}
+					}
+					Damage: 0
+				}
+			}
+		}
+		{ item: "quark:gold_bars", count: 16 }
+		{ item: "minecraft:gold_block", count: 8 }
+		{ item: "thermal:gold_coin", count: 100 }
+		{ item: "apotheosis:lucky_foot" }
+		{
+			item: {
+				id: "reliquary:witch_hat"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			item: {
+				id: "sophisticatedbackpacks:netherite_backpack"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			item: {
+				id: "botania:unholy_cloak"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			item: {
+				id: "sophisticatedstorage:packing_tape"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "relics:shadow_glaive"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "botanicalmachinery:mechanical_apothecary" }
+		{ item: "torchmaster:dreadlamp" }
+		{
+			item: {
+				id: "evilcraft:blood_infuser"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{ item: "botania:terrasteel_ingot", count: 3 }
+		{ item: "mowziesmobs:wrought_helmet" }
+		{
+			item: {
+				id: "reliquary:mob_charm"
+				Count: 1b
+				tag: {
+					Damage: 0
+					entity: "minecraft:wither_skeleton"
+				}
+			}
+		}
+		{ item: "supplementaries:key" }
+		{ item: "botania:endoflame", count: 3 }
+		{
+			item: {
+				id: "cyclic:ghost"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			item: {
+				id: "tools_complement:silver_sword"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "forbidden_arcanus:mystical_dagger"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "immersiveengineering:toolupgrade_revolver_electro"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			item: {
+				id: "tools_complement:diamond_hammer"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "ae2:capacity_card"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{ item: "scalinghealth:chance_heart" }
+		{ item: "botania:rune_wrath", count: 4 }
+		{ item: "byg:subzero_crystal_shard", count: 16 }
+		{
+			item: {
+				id: "buildinggadgets:gadget_destruction"
+				Count: 1b
+				tag: {
+					overlay: 1b
+					fuzzy: 1b
+				}
+			}
+		}
+		{ item: "ftbic:nuke" }
+		{ item: "botania:lens_magnet" }
+	]
+	loot_crate: {
+		drops: {
+			boss: 0
+			passive: 0
+			monster: 0
+		}
+		color: 0
+		glow: 1b
+		string_id: "pirate_crate"
+	}
+}

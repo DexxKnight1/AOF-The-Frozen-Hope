@@ -1,0 +1,11 @@
+{
+    "type":"immersiveengineering:metal_press",
+    "mold":"immersiveengineering:mold_plate",
+    "result":{
+        "item":"alltheores:diamond_plate"
+    },
+    "input":{
+        "item":"minecraft:diamond"
+    },
+    "energy":2400
+}

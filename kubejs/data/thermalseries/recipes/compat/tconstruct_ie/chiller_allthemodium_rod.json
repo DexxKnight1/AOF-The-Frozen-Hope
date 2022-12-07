@@ -1,0 +1,18 @@
+{
+  "type": "thermal:chiller",
+  "ingredients": [
+    {
+      "fluid": "allthemodium:molten_allthemodium",
+      "amount": 45
+    },
+    {
+      "item": "thermal:chiller_rod_cast"
+    }
+  ],
+  "result": [
+    {
+      "tag": "forge:rods/allthemodium"
+    }
+  ],
+  "energy": 3500
+}

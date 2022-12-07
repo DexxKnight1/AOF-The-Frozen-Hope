@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "ftbic:roller",
+  "pattern": [
+    "AAA",
+    "HMH",
+    "PCP"
+  ],
+  "key": {
+    "A": {
+      "item": "ftbic:industrial_grade_metal"
+    },
+    "H": {
+      "tag": "forge:gears/aluminum"
+    },
+    "P": {
+      "item": "minecraft:piston"
+    },
+    "M": {
+      "item": "ftbic:machine_block"
+    },
+    "C": {
+      "item": "ftbic:electronic_circuit"
+    }
+  },
+  "result": {
+    "item": "ftbic:roller"
+  }
+}

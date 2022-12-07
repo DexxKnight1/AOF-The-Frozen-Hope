@@ -1,0 +1,212 @@
+{
+	id: "584FBF6F1E76E670"
+	order_index: 3
+	title: "Epic Crate"
+	loot_size: 1
+	hide_tooltip: true
+	use_title: true
+	rewards: [
+		{
+			item: {
+				id: "minecraft:enchanted_book"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 9s
+						id: "minecraft:sharpness"
+					}]
+				}
+			}
+			weight: 70
+		}
+		{ item: "immersiveengineering:shader_bag_epic", weight: 70 }
+		{ item: "pamhc2foodcore:epicbaconitem", count: 16, weight: 70 }
+		{ item: "pamhc2foodextended:epicbltitem", count: 8, weight: 70 }
+		{ item: "minecraft:emerald", count: 16, weight: 70 }
+		{ item: "enderstorage:ender_chest", weight: 70 }
+		{ item: "minecraft:diamond", count: 16, weight: 70 }
+		{ item: "mysticalagriculture:supremium_essence", count: 4, weight: 70 }
+		{ item: "minecraft:bookshelf", count: 25, weight: 70 }
+		{ item: "minecraft:nether_star", weight: 70 }
+		{
+			item: {
+				id: "minecraft:netherite_sword"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 70
+		}
+		{
+			item: {
+				id: "minecraftdungeons:dancers_sword"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 70
+		}
+		{
+			item: {
+				id: "reliquary:nebulous_heart"
+				Count: 1b
+				tag: { }
+			}
+			count: 16
+			weight: 70
+		}
+		{
+			item: {
+				id: "tombstone:scroll_of_mercy"
+				Count: 1b
+				tag: {
+					ancient: 1b
+					enchant: 1b
+				}
+			}
+			weight: 70
+		}
+		{
+			item: {
+				id: "reliquary:rod_of_lyssa"
+				Count: 1b
+				tag: { }
+			}
+			weight: 70
+		}
+		{
+			item: {
+				id: "reliquary:frozen_core"
+				Count: 1b
+				tag: { }
+			}
+			count: 16
+			weight: 70
+		}
+		{
+			item: {
+				id: "reliquary:fertile_essence"
+				Count: 1b
+				tag: { }
+			}
+			count: 16
+			weight: 70
+		}
+		{
+			item: {
+				id: "reliquary:eye_of_the_storm"
+				Count: 1b
+				tag: { }
+			}
+			count: 16
+			weight: 70
+		}
+		{
+			item: {
+				id: "reliquary:molten_core"
+				Count: 1b
+				tag: { }
+			}
+			count: 16
+			weight: 70
+		}
+		{
+			item: {
+				id: "reliquary:twilight_cloak"
+				Count: 1b
+				tag: { }
+			}
+			weight: 70
+		}
+		{ item: "botania:life_essence", weight: 70 }
+		{ item: "botania:rune_water", weight: 70 }
+		{ item: "botania:rune_summer", weight: 70 }
+		{
+			item: {
+				id: "botania:dice"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{ item: "naturesaura:token_euphoria", weight: 70 }
+		{
+			item: {
+				id: "cyclic:ender_book"
+				Count: 1b
+				tag: {
+					Damage: 0
+					itemCount: 0
+				}
+				ForgeCaps: {
+					Parent: {
+						Size: 9
+						Items: [ ]
+					}
+				}
+			}
+			weight: 70
+		}
+		{
+			item: {
+				id: "greekfantasy:dragon_tooth_rod"
+				Count: 1b
+				tag: {
+					Damage: 0
+					Enchantments: [{
+						lvl: 3s
+						id: "minecraft:luck_of_the_sea"
+					}]
+				}
+			}
+			weight: 70
+		}
+		{ item: "twilightforest:magic_map_focus", weight: 70 }
+		{
+			item: {
+				id: "twilightforest:triple_bow"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 70
+		}
+		{ item: "minecraft:enchanted_golden_apple", count: 12, weight: 70 }
+		{ item: "fluidtank:tank_diamond", weight: 10 }
+		{ item: "mekanism:digital_miner", weight: 10 }
+		{
+			item: {
+				id: "industrialforegoing:machine_frame_advanced"
+				Count: 1b
+				tag: { }
+			}
+			weight: 10
+		}
+		{
+			item: {
+				id: "scalinghealth:heart_crystal"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			item: {
+				id: "apotheosis:epic_material"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{ item: "minecraft:totem_of_undying", count: 12 }
+	]
+	loot_crate: {
+		drops: {
+			boss: 0
+			passive: 0
+			monster: 0
+		}
+		color: 11748460
+		string_id: "epic_crate"
+	}
+}

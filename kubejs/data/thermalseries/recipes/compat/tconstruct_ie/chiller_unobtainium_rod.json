@@ -1,0 +1,18 @@
+{
+  "type": "thermal:chiller",
+  "ingredients": [
+    {
+      "fluid": "allthemodium:molten_unobtainium",
+      "amount": 45
+    },
+    {
+      "item": "thermal:chiller_rod_cast"
+    }
+  ],
+  "result": [
+    {
+      "tag": "forge:rods/unobtainium"
+    }
+  ],
+  "energy": 3500
+}

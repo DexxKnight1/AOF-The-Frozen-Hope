@@ -1,0 +1,20 @@
+{
+    "type":"immersiveengineering:metal_press",
+    "mold":"immersiveengineering:mold_gear",
+    "result":{
+        "item":"allthemodium:vibranium_gear"
+    },
+    "conditions":[{
+        "value":{
+            "tag":"forge:gears/vibranium",
+            "type":"forge:tag_empty"
+        },
+        "type":"forge:not"
+    }],
+    "input":{
+        "count":4,"base_ingredient":{
+            "tag":"forge:ingots/vibranium"
+        }
+    },
+    "energy":2400
+}

@@ -1,0 +1,27 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	
+	"ingredients":
+	[
+    {
+      "tag": "forge:tool_mixingbowl"
+    },
+	  {	
+      "tag": "pamhc2:leafyvegetables"
+    },
+	  {	
+      "tag": "flowers"
+    },
+	  {	
+      "tag": "flowers"
+    },
+	  {	
+      "tag": "forge:condiments/saladdressing"
+    }
+
+	],
+	
+	"result": {"item": "pamhc2foodextended:mixedflowerssaladitem",
+	"count": 1}
+	
+}

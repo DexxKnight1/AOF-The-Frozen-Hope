@@ -1,0 +1,21 @@
+{
+    "type":"immersiveengineering:metal_press",
+    "mold":"immersiveengineering:mold_rod",
+    "result":{
+        "count":1,
+        "base_ingredient":{
+            "tag":"forge:rods/unobtainium"
+            }
+    },
+    "conditions":[{
+        "value":{
+            "tag":"forge:rods/unobtainium",
+            "type":"forge:tag_empty"
+        },
+        "type":"forge:not"
+    }],
+    "input":{
+        "tag":"forge:ingots/unobtainium"
+    },
+    "energy":3500
+}

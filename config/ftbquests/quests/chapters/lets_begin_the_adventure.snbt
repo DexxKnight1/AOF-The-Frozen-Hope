@@ -1,0 +1,625 @@
+{
+	id: "59FB9740D5BFC784"
+	group: ""
+	order_index: 0
+	filename: "lets_begin_the_adventure"
+	title: "&b&l&oLet's begin the adventure"
+	icon: {
+		id: "enchantwithmob:mob_enchant_book"
+		Count: 1b
+		tag: {
+			Damage: 0
+			StoredMobEnchants: [{
+				MobEnchant: "enchantwithmob:protection"
+				EnchantLevel: 4
+			}]
+		}
+	}
+	default_quest_shape: "circle"
+	default_hide_dependency_lines: false
+	images: [
+		{
+			x: -4.25d
+			y: -0.9464285714285694d
+			width: 0.3d
+			height: 1.0d
+			rotation: 0.0d
+			image: "kubejs:textures/item/quest.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 0.5d
+			y: 3.5d
+			width: 3.0d
+			height: 3.0d
+			rotation: 0.0d
+			image: "kubejs:textures/item/steve.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -4.5d
+			y: 4.5d
+			width: 3.5d
+			height: 1.0d
+			rotation: 0.0d
+			image: "kubejs:textures/item/apples.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+	]
+	quests: [
+		{
+			title: "&c&l&nWelcome brave warrior of fate!"
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "kubejs:textures/item/contract.png"
+				}
+			}
+			x: -4.2d
+			y: 0.0d
+			shape: "pentagon"
+			subtitle: "&oSing the contract to start the &b&l&oQuests"
+			description: [
+				"Welcome to Age of Fate! Here begins your journey."
+				"A horrible accident has left the world - the entire world - a frozen wasteland."
+				"Unending snowstorms rage across the land, from forests, to plains, to jungles, to deserts."
+				"The air is thick with fog and wind howls across the landscape."
+				"Will you be able to survive in this primordial winter?"
+			]
+			size: 1.2d
+			id: "31F65F523E4DB7A7"
+			tasks: [{
+				id: "071125FC42EBEAB9"
+				type: "checkmark"
+				title: "Sign the contract"
+				icon: "villagertools:contract"
+			}]
+			rewards: [{
+				id: "2323A963C6CF39AB"
+				type: "item"
+				title: "Your copy of the contract"
+				item: "villagertools:forget"
+			}]
+		}
+		{
+			title: "&2&lHome Sweet Home!"
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "kubejs:textures/item/house.png"
+				}
+			}
+			x: -1.8928571428571388d
+			y: -2.4464285714285694d
+			subtitle: "&oIt will make your life easier"
+			description: [
+				"Use command &d&l/sethome&r for setting home."
+				"Use command &d&l/home&r to teleport your back to home."
+				"Use command &d&l/back&r to teleport your to previous location. Can be used multiple times."
+			]
+			dependencies: ["31F65F523E4DB7A7"]
+			id: "1A3D26A318C7A49C"
+			tasks: [{
+				id: "0BFB2F63218D2E67"
+				type: "checkmark"
+				title: "Home"
+				icon: "minecraft:red_bed"
+			}]
+			rewards: [
+				{
+					id: "3C4C7CD9D2F987DD"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "714E3E437BE08983"
+					type: "item"
+					item: {
+						id: "toughasnails:purified_water_bottle"
+						Count: 1b
+						tag: { }
+					}
+				}
+			]
+		}
+		{
+			title: "&6&lThe Crafting Table"
+			x: -6.0d
+			y: -1.0d
+			subtitle: "&oI know, everybody knows that"
+			description: [
+				"Ups, did I forget to meant that the crafting recipe is changed, didn't I?"
+				"All right, quick find a village and use their crafting tables to craft your first tools. By the way kill some animals on your way to the village, 'cause you'll be needed bones, yeah bones."
+			]
+			dependencies: ["31F65F523E4DB7A7"]
+			id: "19B4AF80C4E96C64"
+			tasks: [{
+				id: "01FF27DF600E4541"
+				type: "item"
+				item: "minecraft:crafting_table"
+			}]
+			rewards: [
+				{
+					id: "456BFE017A8316DE"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "0D04A1418D0AA790"
+					type: "item"
+					item: {
+						id: "minecraft:bone"
+						Count: 1b
+						tag: { }
+					}
+				}
+			]
+		}
+		{
+			title: "&e&lPrimitive Basic Tools"
+			x: -7.0d
+			y: -2.0d
+			subtitle: "&oStart with primitive ones"
+			description: [
+				"Instead of immediately sprinting to your nearest tree and punching it, you now have to start with sprinting to your nearest mob. After murdering these mobs for their bones, you can gather some sticks by breaking leaves."
+				""
+			]
+			dependencies: ["19B4AF80C4E96C64"]
+			id: "6D37151EC650DF0D"
+			tasks: [
+				{
+					id: "0814B040CD04B9D2"
+					type: "item"
+					item: {
+						id: "primitivestart:bone_pickaxe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "78639BADA3D55AB7"
+					type: "item"
+					item: {
+						id: "primitivestart:bone_axe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "1F556F0DBC8964AB"
+					type: "item"
+					item: {
+						id: "primitivestart:bone_shovel"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "67B3F7976EF084DB"
+					type: "item"
+					item: {
+						id: "primitivestart:bone_hoe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "20772CEAA4928E78"
+					type: "item"
+					item: {
+						id: "primitivestart:bone_shears"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "570F93417F0408F0"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			title: "&6&lThe Food"
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "kubejs:textures/item/meal.png"
+				}
+			}
+			x: -1.5d
+			y: -1.0d
+			subtitle: "&oSome food will be ok, right?"
+			description: ["Culinary Construct is a mod that lets you make custom sandwiches or bowls/stews out of any food items you have lying around. &l&bThat's right, any of them!"]
+			dependencies: ["31F65F523E4DB7A7"]
+			id: "3A7FC41CC5B51F5F"
+			tasks: [{
+				id: "474F8281519C3469"
+				type: "item"
+				item: "culinaryconstruct:culinary_station"
+			}]
+			rewards: [
+				{
+					id: "0F33C23A0A61AD90"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "7D9006F1EC4EF382"
+					type: "item"
+					item: {
+						id: "minecraft:cooked_beef"
+						Count: 1b
+						tag: { }
+					}
+					count: 32
+				}
+			]
+		}
+		{
+			title: "&6&lThe Bed"
+			x: -7.5d
+			y: 1.5d
+			subtitle: "&oCraft a bed as soon as you can"
+			dependencies: ["31F65F523E4DB7A7"]
+			id: "2D4EE2B866D8CE35"
+			tasks: [{
+				id: "4E4539EA9C7C200F"
+				type: "item"
+				title: "Craft any bed"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "minecraft:beds"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "66B0380C07157770"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "50CD6FFB44D9D5B9"
+					type: "loot"
+					table_id: 2136994266140185172L
+				}
+			]
+		}
+		{
+			title: "&e&lFurnace"
+			x: -4.5d
+			y: 2.0d
+			subtitle: "&oTime for cooking"
+			dependencies: ["31F65F523E4DB7A7"]
+			id: "27C2B59611A27ABE"
+			tasks: [{
+				id: "23AEFD8250BB4EEA"
+				type: "item"
+				item: "minecraft:furnace"
+			}]
+			rewards: [
+				{
+					id: "7B931E3670540F32"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "40B3693263717C8F"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 4432288867142743846L
+				}
+			]
+		}
+		{
+			title: "&f&lChest"
+			x: -2.0d
+			y: 2.0d
+			subtitle: "&oTemporary store solution ;)"
+			dependencies: ["31F65F523E4DB7A7"]
+			id: "2F75111FF8C7FEE5"
+			tasks: [{
+				id: "4AECEB9E367EEB22"
+				type: "item"
+				title: "Any Chest"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "misctags:chests"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "040A57A5B73F53C3"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "57AC111D9066E497"
+					type: "item"
+					item: "minecraft:chest"
+				}
+			]
+		}
+		{
+			title: "&9&lCompanion for Life"
+			x: -8.5d
+			y: 0.0d
+			subtitle: "&oMy Best Friend Forever"
+			description: [
+				"If you are not familiar with Doggy Talents mod I'll recommend to watch this tutorial:"
+				"&9&nhttps://www.youtube.com/watch?v=8YhjHd--2Ow"
+			]
+			dependencies: ["31F65F523E4DB7A7"]
+			id: "41AABD2060E95538"
+			tasks: [{
+				id: "3F8427891D3E0CB4"
+				type: "item"
+				title: "Craft any dog bed"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "doggytalents:beds"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "4EE23FD373D2C7F3"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "2DF3456E366CB55D"
+					type: "item"
+					item: "doggytalents:doggy_charm"
+				}
+				{
+					id: "66BF9E8B2700AF98"
+					type: "item"
+					item: "doggytalents:treat_bag"
+				}
+				{
+					id: "4EE3BCFDD3E02D9B"
+					type: "item"
+					item: {
+						id: "minecraft:stick"
+						Count: 1b
+						tag: {
+							display: {
+								Name: "{\"text\":\"Training Stick\"}"
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "&e&lThe Eccentric Tome"
+			icon: {
+				id: "eccentrictome:tome"
+				Count: 1b
+				tag: {
+					"eccentrictome:mods": { }
+				}
+			}
+			x: -3.5d
+			y: -2.5d
+			subtitle: "&oYour personal portable library"
+			description: [
+				"In your Eccentric Tome are all books included."
+				""
+				"&l&6Right-click&r while holding Tome to open the book selection screen."
+				"&l&6Left-click&r on air to revert a book back into the Tome."
+				""
+				"If you lose it you can always craft it back with just a regular minecrft book using any crafting grid."
+			]
+			dependencies: ["31F65F523E4DB7A7"]
+			id: "3A72B0E6AAF8F2C0"
+			tasks: [{
+				id: "624E1FE4F9278ED5"
+				type: "checkmark"
+				title: "Akashic Tome"
+			}]
+			rewards: [
+				{
+					id: "7C81BEFBE08B8AE9"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "1BF78BCCAD9B4E56"
+					type: "item"
+					item: "minecraft:book"
+				}
+			]
+		}
+		{
+			title: "&e&lReinforced Primitive Tools"
+			x: -6.0d
+			y: -3.0d
+			description: [
+				"You can now make stone tools, however, stone isn't as strong as you'd like it to be, and it sadly can't mine iron."
+				"You can mine a different metal though, copper. You can use copper to make a smithing table, which can then be used to reinforce your bone tools."
+				"Reinforced bone tools are on par with iron tools, so you can now continue into the midgame as normal."
+			]
+			dependencies: ["6D37151EC650DF0D"]
+			id: "4407A832E90678D3"
+			tasks: [
+				{
+					id: "2BA12B31DE76FEC3"
+					type: "item"
+					item: {
+						id: "primitivestart:reinforced_bone_pickaxe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "75431DA1E496A885"
+					type: "item"
+					item: {
+						id: "primitivestart:reinforced_bone_axe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "7F69ACBB43C178E6"
+					type: "item"
+					item: {
+						id: "primitivestart:reinforced_bone_shovel"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "6C44BC60AFC8DA84"
+					type: "item"
+					item: {
+						id: "primitivestart:reinforced_bone_hoe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "0789E45A891A576A"
+				type: "xp"
+				xp: 200
+			}]
+		}
+		{
+			title: "&l&bThe Thirst"
+			x: -1.0d
+			y: 0.5d
+			dependencies: ["31F65F523E4DB7A7"]
+			id: "411DC6C524A236D7"
+			tasks: [
+				{
+					id: "220C3F52E99F8145"
+					type: "item"
+					item: "toughasnails:rain_collector"
+				}
+				{
+					id: "03B8C06B867665C5"
+					type: "item"
+					item: "toughasnails:water_purifier"
+				}
+			]
+			rewards: [
+				{
+					id: "6ABAC96EB725CD20"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "7421D7DEC3FA56B9"
+					type: "item"
+					item: "toughasnails:empty_canteen"
+				}
+				{
+					id: "5E64AADA3CE90E18"
+					type: "item"
+					item: {
+						id: "toughasnails:purified_water_bottle"
+						Count: 1b
+						tag: { }
+					}
+				}
+			]
+		}
+		{
+			title: "&l&7Let's hunt"
+			x: 0.0d
+			y: -1.0d
+			subtitle: "&oRaw meat for roasted meat"
+			dependencies: ["3A7FC41CC5B51F5F"]
+			id: "4EA94E2F6636AE31"
+			tasks: [
+				{
+					id: "1729570EB2FF60A5"
+					type: "item"
+					item: "minecraft:porkchop"
+					count: 3L
+					consume_items: true
+				}
+				{
+					id: "502D0C6472984D71"
+					type: "item"
+					item: "minecraft:chicken"
+					count: 3L
+					consume_items: true
+				}
+				{
+					id: "1CF6E587662C0B34"
+					type: "item"
+					item: "minecraft:beef"
+					count: 3L
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "4B3BD61F5ACA03F1"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "08C2A0B80D708B77"
+					type: "item"
+					item: "minecraft:cooked_porkchop"
+					count: 3
+				}
+				{
+					id: "082233CBE0F5687E"
+					type: "item"
+					item: "minecraft:cooked_chicken"
+					count: 3
+				}
+				{
+					id: "103D5A66F75235D7"
+					type: "item"
+					item: "minecraft:cooked_beef"
+					count: 3
+				}
+			]
+		}
+	]
+}

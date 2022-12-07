@@ -1,0 +1,35 @@
+{
+  "input": [
+    {
+      "tag": "forge:plastic"
+    },
+    {
+      "tag": "industrialforegoing:machine_frame/simple"
+    },
+    {
+      "tag": "forge:plastic"
+    },
+    {
+      "item": "ftbic:advanced_alloy"
+    },
+    {
+      "item": "ftbic:advanced_alloy"
+    },
+    {
+      "tag": "forge:ingots/signalum"
+    },
+    {
+      "tag": "forge:gears/diamond"
+    },
+    {
+      "tag": "forge:ingots/signalum"
+    }
+  ],
+  "inputFluid": "{FluidName:\"industrialforegoing:pink_slime\",Amount:500}",
+  "processingTime": 300,
+  "output": {
+    "item": "industrialforegoing:machine_frame_advanced",
+    "count": 1
+  },
+  "type": "industrialforegoing:dissolution_chamber"
+}

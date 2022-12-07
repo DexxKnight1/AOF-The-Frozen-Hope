@@ -1,0 +1,17 @@
+
+#Void Totem Common Config
+[general]
+	#This sets whether the void totem will be added to the end city treasure.
+	add_end_city_treasure = true
+	#This adds dimensions to a blacklist where you die if you fall into the void. Example: "minecraft:overworld".
+	blacklisted_dimensions = []
+	#This sets whether you need a totem to prevent death when falling into the void.
+	needs_totem = true
+	#This sets whether a tooltip is shown on the totem.
+	show_totem_tooltip = true
+	#This sets the height offset you will be teleported when you can't be placed on a block.
+	#Range: 0 ~ 1024
+	teleport_height_offset = 64
+	#This sets whether you can use a totem from anywhere in your inventory.
+	use_totem_from_inventory = false
+

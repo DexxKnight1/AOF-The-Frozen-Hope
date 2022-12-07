@@ -1,0 +1,231 @@
+{
+	id: "40FE31199ED4693C"
+	order_index: 6
+	title: "Mythic Crate"
+	loot_size: 1
+	hide_tooltip: true
+	use_title: true
+	rewards: [
+		{
+			item: {
+				id: "mna:grimoire_council"
+				Count: 1b
+				tag: { }
+			}
+			weight: 3000
+		}
+		{
+			item: {
+				id: "apotheosis:mythic_material"
+				Count: 1b
+				tag: { }
+			}
+			weight: 3000
+		}
+		{
+			item: {
+				id: "enigmaticlegacy:cosmic_heart"
+				Count: 1b
+				tag: { }
+			}
+			weight: 3000
+		}
+		{
+			item: {
+				id: "enigmaticlegacy:astral_breaker"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 3000
+		}
+		{ item: "minecraft:nether_star", count: 64, weight: 3000 }
+		{
+			item: {
+				id: "tconstruct:creative_slot"
+				Count: 1b
+				tag: {
+					slot: "upgrades"
+				}
+			}
+			count: 16
+			weight: 1000
+		}
+		{
+			item: {
+				id: "allthemodium:allthemodium_sword"
+				Count: 1b
+				tag: { }
+			}
+			weight: 100
+		}
+		{
+			item: {
+				id: "enigmaticlegacy:etherium_pickaxe"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 3000
+		}
+		{
+			item: {
+				id: "enigmaticlegacy:etherium_axe"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 3000
+		}
+		{
+			item: {
+				id: "enigmaticlegacy:etherium_shovel"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 3000
+		}
+		{
+			item: {
+				id: "allthemodium:allthemodium_pickaxe"
+				Count: 1b
+				tag: { }
+			}
+			weight: 10
+		}
+		{
+			item: {
+				id: "allthemodium:allthemodium_axe"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			item: {
+				id: "allthemodium:allthemodium_shovel"
+				Count: 1b
+				tag: { }
+			}
+			weight: 3000
+		}
+		{ item: "mekanism:alloy_atomic", count: 16, weight: 3000 }
+		{ item: "mekanism:pellet_antimatter", count: 8, weight: 3000 }
+		{ item: "bloodmagic:soulforge", weight: 3000 }
+		{
+			item: {
+				id: "constructionwand:infinity_wand"
+				Count: 1b
+				tag: {
+					wand_options: { }
+				}
+			}
+			weight: 3000
+		}
+		{
+			item: {
+				id: "mekanism:alloy_atomic"
+				Count: 1b
+				tag: { }
+			}
+			count: 64
+			weight: 3000
+		}
+		{
+			item: {
+				id: "vampirism:vampire_book"
+				Count: 1b
+				tag: {
+					generation: 3
+					pages: [
+						"[\"\",{\"text\":\"Liber XV\",\"bold\":true},{\"text\":\"\\nUtcumque potuimus veritatem scrutari, ea quae videre licuit per aetatem, vel perplexe interrogando versatos in medio scire, narravimus ordine casuum exposito diversorum:\",\"color\":\"reset\"}]"
+						"{\"text\":\"residua quae secuturus aperiet textus, pro virium captu limatius absolvemus, nihil obtrectatores longi, ut putant, operis formidantes. Tunc enim laudanda est brevitas cum moras rumpens intempestivas nihil subtrahit cognitioni gestorum.\"}"
+					]
+					title: "Liber XV"
+					author: "Unknown"
+					display: { }
+				}
+			}
+			weight: 3000
+		}
+		{ item: "mysticalagradditions:insanium_block", count: 12, weight: 3000 }
+		{ item: "mysticalagradditions:insanium_apple", count: 12, weight: 3000 }
+		{ item: "minecraft:netherite_block", count: 32, weight: 3000 }
+		{
+			item: {
+				id: "tconstruct:creative_slot"
+				Count: 1b
+				tag: {
+					slot: "abilities"
+				}
+			}
+			count: 16
+			weight: 3000
+		}
+		{
+			item: {
+				id: "tconstruct:creative_slot"
+				Count: 1b
+				tag: {
+					slot: "souls"
+				}
+			}
+			count: 16
+			weight: 3000
+		}
+		{
+			item: {
+				id: "tconstruct:creative_slot"
+				Count: 1b
+				tag: {
+					slot: "defense"
+				}
+			}
+			count: 16
+			weight: 3000
+		}
+		{
+			item: {
+				id: "redstone_arsenal:flux_sword"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			item: {
+				id: "allthemodium:unobtainium_sword"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{ item: "minecraft:totem_of_undying", count: 64 }
+		{
+			item: {
+				id: "sophisticatedstorage:netherite_chest"
+				Count: 1b
+				tag: {
+					woodType: "oak"
+				}
+			}
+			count: 16
+		}
+		{ item: "mysticalagradditions:insanium_coal_block", count: 16 }
+		{ item: "mysticaladaptations:insanium_paxel" }
+		{ item: "allthecompressed:nether_star_block_9x" }
+		{ item: "enigmaticlegacy:etherium_ore", count: 12 }
+	]
+	loot_crate: {
+		drops: {
+			boss: 0
+			passive: 0
+			monster: 0
+		}
+		color: 11141290
+		glow: 1b
+		string_id: "mythic_crate"
+	}
+}

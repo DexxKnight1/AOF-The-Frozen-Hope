@@ -1,0 +1,30 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	
+	"ingredients":
+	[
+    {
+      "tag": "forge:tool_skillet"
+    },
+	{	
+      "tag": "forge:crops/bellpepper"
+    },
+	{	
+      "tag": "forge:crops/carrot"
+    },
+	{	
+      "tag": "forge:crops/rice"
+    },
+	{	
+      "tag": "forge:crops/onion"
+    },
+	{	
+      "tag": "pamhc2:vegetables"
+    }
+
+	],
+	
+	"result": {"item": "pamhc2foodextended:veggiestirfryitem",
+	"count": 1}
+	
+}

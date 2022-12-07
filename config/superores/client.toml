@@ -1,0 +1,5 @@
+
+["Super Ores Client Options"]
+	#Set this value to true if you'd like the lang configuration to be re-generated, WARNING: All your previous changes will be reset!
+	generateLang = false
+

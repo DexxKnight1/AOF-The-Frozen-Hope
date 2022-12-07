@@ -1,0 +1,30 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	
+	"ingredients":
+	[
+    {
+      "tag": "forge:tool_bakeware"
+    },
+	{	
+      "tag": "forge:rawmeats"
+    },
+	{	
+      "tag": "pamhc2:vegetables"
+    },
+	{	
+      "tag": "pamhc2:vegetables"
+    },
+	{	
+      "tag": "forge:cheese"
+    },
+	{	
+      "item": "pamhc2foodextended:tatertotsitem"
+    }
+	
+	],
+	
+	"result": {"item": "pamhc2foodextended:hotdishcasseroleitem",
+	"count": 1}
+	
+}

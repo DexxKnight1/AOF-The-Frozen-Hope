@@ -1,0 +1,18 @@
+{
+  "type": "thermal:press",
+  "ingredients": [
+    {
+      "item": "mysticalagriculture:prudentium_ingot_block"
+    },
+    {
+      "item": "thermal:press_unpacking_die"
+    }
+  ],
+  "result": [
+    {
+      "item": "mysticalagriculture:prudentium_ingot",
+      "count": 9
+    }
+  ],
+  "energy": 400
+}

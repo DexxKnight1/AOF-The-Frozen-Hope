@@ -1,0 +1,24 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	
+	"ingredients":
+	[
+    {
+      "tag": "forge:tool_cuttingboard"
+    },
+	{	
+      "tag": "forge:citrusfruits"
+    },
+	{	
+      "tag": "forge:citrusfruits"
+    },
+	{	
+      "tag": "pamhc2:leafyvegetables"
+    }
+
+	],
+	
+	"result": {"item": "pamhc2foodextended:citrussaladitem",
+	"count": 1}
+	
+}

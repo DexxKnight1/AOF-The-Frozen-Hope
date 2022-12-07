@@ -1,0 +1,27 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	
+	"ingredients":
+	[
+    {
+      "tag": "forge:tool_mixingbowl"
+    },
+	{	
+      "tag": "pamhc2:vegetables"
+    },
+	{	
+      "tag": "pamhc2:leafyvegetables"
+    },
+	{	
+      "tag": "forge:juices"
+    },
+	{	
+      "tag": "forge:vinegar"
+    }
+
+	],
+	
+	"result": {"item": "pamhc2foodextended:berryvinaigrettesaladitem",
+	"count": 1}
+	
+}

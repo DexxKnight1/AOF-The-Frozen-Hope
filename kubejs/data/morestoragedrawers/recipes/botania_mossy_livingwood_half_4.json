@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "morestoragedrawers",
+  "pattern": [
+    "x/x",
+    "///",
+    "x/x"
+  ],
+  "key": {
+    "/": {
+      "item": "botania:mossy_livingwood_planks_slab"
+    },
+    "x": {
+      "tag": "forge:chests/wooden"
+    }
+  },
+  "result": {
+    	"item": "morestoragedrawers:botania_mossy_livingwood_half_4",
+"count": 4
+  }
+}

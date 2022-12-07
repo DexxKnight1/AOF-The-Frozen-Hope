@@ -1,0 +1,11 @@
+{
+    "type":"immersiveengineering:metal_press",
+    "mold":"immersiveengineering:mold_plate",
+    "result":{
+        "item":"allthemodium:unobtainium_plate"
+    },
+    "input":{
+        "tag":"forge:ingots/unobtainium"
+    },
+    "energy":2400
+}

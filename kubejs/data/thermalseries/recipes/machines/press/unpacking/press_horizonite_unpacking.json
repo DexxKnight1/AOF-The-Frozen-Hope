@@ -1,0 +1,18 @@
+{
+  "type": "thermal:press",
+  "ingredients": [
+    {
+      "item": "blue_skies:horizonite_block"
+    },
+    {
+      "item": "thermal:press_unpacking_die"
+    }
+  ],
+  "result": [
+    {
+      "item": "blue_skies:horizonite_ingot",
+      "count": 9
+    }
+  ],
+  "energy": 400
+}
