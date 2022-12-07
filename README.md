@@ -2,7 +2,7 @@
 
 ![banner_frozen_hope](https://user-images.githubusercontent.com/78975662/206298659-13f77cda-49e9-4522-b884-eadc5658645c.png)
 
-This is the official repository and issue-tracker for Age of Fate 1.16.5
+This is the official repository and issue-tracker for Age of Fate: The Frozen Hope 1.18.2
 
 ![Discord](https://img.shields.io/discord/831803522281635850?color=blueviolet&label=Discord&logo=Discord&logoColor=blueviolet&style=for-the-badge) [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/Z8Z5EO6KT)
 
