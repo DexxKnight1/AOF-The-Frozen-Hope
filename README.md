@@ -8,7 +8,7 @@ This is the official repository and issue-tracker for Age of Fate: The Frozen Ho
 
 ## About the pack:
 
-A horrible accident has left the world. The evil Wizard called Exeor, using the darkest magic lost control and transformed whole world into a frozen wasteland. Unending snowstorms rage across the land, from forests, to plains, to jungles, to deserts. The magic was so strong and changed all known dimensions to eternal winter. Exeor tried to escape and was turned into a thick fog which take over the entire world. The fog and wind howls across the landscape. Will you be able to survive in this primordial winter?
+A horrible accident has left the world. The evil Wizard called Exeor, using the darkest magic lost control and transformed the whole world into a frozen wasteland. Unending snowstorms rage across the land, from forests, to plains, to jungles, to deserts. The magic was so strong it changed all known dimensions to eternal winter. Exeor tried to escape and was turned into a thick fog which takes over the entire world. The fog and wind howls across the landscape. Will you be able to survive in this primordial winter?
 
 To run this pack smoothly I'll recommend to allocate about **10GB** to **12GB** amount of **RAM**.
 
