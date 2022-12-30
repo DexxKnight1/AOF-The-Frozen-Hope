@@ -1,3 +1,62 @@
+# [AOF/FH-v1.0.2] - 2022.12.30
+### Fixed
+- Fixed Annoying temperature visual effects caused by torch/lantern
+### Added
+- Added New items to the Farming for Blockheads Market
+- Added The Lost Cities
+- Added Dungeon Crawl
+- Added Villagers Sell Animals
+- Added KubeJS Blood Magic
+- Added Chalk
+### Changed
+- Updated Forge version to 40.1.92
+- Updated ⚔️ RPG style More Weapons!
+- Updated AIOT Botania
+- Updated Almost Unified
+- Updated Aquaculture 2
+- Updated Aquamirae
+- Updated Better Advancements
+- Updated Better Third Person
+- Updated Canary
+- Updated Champions
+- Updated CoFH Core
+- Updated Collective
+- Updated EffectsLeft
+- Updated Enchant With Mob
+- Updated Enchantment Descriptions
+- Updated EnhancedVisuals
+- Updated Forbidden and Arcanus
+- Updated FTB Chunks
+- Updated FTB Library
+- Updated FTB Quests
+- Updated FTB Teams
+- Updated FTB Ultimine
+- Updated GeckoLib
+- Updated Immersive Engineering
+- Updated Iron Furnaces
+- Updated JourneyMap
+- Updated Just Enough Items (JEI)
+- Updated KubeJS Thermal
+- Updated Lootr (Forge)
+- Updated Macaw's Bridges
+- Updated Macaw's Fences and Walls
+- Updated Macaw's Roofs
+- Updated Macaw's Trapdoors
+- Updated Macaw's Windows
+- Updated McJtyLib
+- Updated ManyIdeas Core
+- Updated Obscure API
+- Updated Powah!
+- Updated Refined Storage
+- Updated Relics
+- Updated RFTools Builder
+- Updated RFTools Utility
+- Updated Sophisticated Backpacks
+- Updated Sophisticated Core
+- Updated Sophisticated Storage
+- Updated Supplementaries
+- Updated Tinkers Construct
+- Updated YUNG's API
 # [AOF/FH-v1.0.1] - 2022.12.12
 ### Added
 - Added SecretRoomsMod
