@@ -1,3 +1,57 @@
+# [AOF/FH-v1.0.3] - 2023.01.16
+### Added
+- Added Better Mods Button
+- Added Saturn
+- Added ForgetMeChunk
+- Added ServerConfig Updater
+- Added Mob Grinding Utils
+- Added Overloaded Armor Bar
+- Added Rings of Ascension
+### Changed
+- Updated Forge version to 40.2.0
+- Updated ⚔️ RPG style More Weapons!
+- Updated Additional Lanterns
+- Updated Canary
+- Updated Champions
+- Updated Chipped
+- Updated Collective
+- Updated Connected Glass
+- Updated Corail Tombstone
+- Updated Creative Crafter
+- Updated Dark Utilities
+- Updated End Remastered
+- Updated Updated Entangled
+- Updated Extended Bone Meal
+- Updated ExtraStorage
+- Updated Extreme Reactors
+- Updated Fire Spread Tweaks
+- Updated FTB Quests
+- Updated Healing Campfire
+- Updated Ice Prevents Crop Growth
+- Updated Item Collectors
+- Updated JourneyMap
+- Updated Kotlin for Forge
+- Updated Mana and Artifice
+- Updated Moving Elevators
+- Updated NoCube's Villagers Sell Animals
+- Updated Paxi
+- Updated Platforms
+- Updated Re-chiseled
+- Updated Rubidium Extra
+- Updated Scaffolding Drops Nearby
+- Updated Security Craft
+- Updated Simple Magnets
+- Updated SuperMartijn642's Core Lib
+- Updated Stack Refill
+- Updated Tesseract
+- Updated TexTrue's Rubidium Options
+- Updated Trash Cans
+- Updated Villager Names
+- Updated Weaker Spiderwebs
+- Updated Wireless Chargers
+- Updated ZeroCore 2
+### Removed
+- Removed Game Menu Mod Option
 # [AOF/FH-v1.0.2] - 2022.12.30
 ### Fixed
 - Fixed Annoying temperature visual effects caused by torch/lantern
