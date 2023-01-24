@@ -1,3 +1,49 @@
+# [AOF/FH-v1.0.4] - 2023.01.24
+### Fixed
+- Fixed The Nether quests
+- Fixed Quests rewards
+### Added
+- Added Drippy Loading Screen
+- Added Legendary Tooltips
+- Added Baubley Heart Canisters
+- Added Durability Tooltip
+### Changed
+- Updated Bookshelf
+- Updated Collective
+- Updated Configurable Extra Mob Drops
+- Updated Cyclops Core
+- Updated EnhancedVisuals
+- Updated Extreme Reactors
+- Updated FramedBlocks
+- Updated FTB Quests
+- Updated JourneyMap
+- Updated Just Enough Items (JEI)
+- Updated KubeJS
+- Updated Majrusz's Progressive Difficulty
+- Updated Mantle
+- Updated Moving Elevators
+- Updated Mystical Agradditions
+- Updated Oculus
+- Updated Sophisticated Backpacks
+- Updated Sophisticated Core
+- Updated Supplementaries
+- Updated The Twilight Forest
+- Updated Tinkers Construct
+- Updated Tips
+- Updated ZeroCore 2
+### Removed
+- Removed Modern UI
+- Removed Passable Foliage 🌳
+- Removed Project: Vibrant Journeys
+- Removed Biomes O' Plenty
+- Removed William Wythers' Overhauled Overworld
+- Removed ManyIdeas Doors
+- Removed ManyIdeas Core
+- Removed Overloaded Armor Bar
+- Removed Scaling Health
+- Removed Silent Lib (silentlib)
+- Removed Snow Pig
+- Removed Untitled Duck Mod
 # [AOF/FH-v1.0.3] - 2023.01.16
 ### Added
 - Added Better Mods Button
