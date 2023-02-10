@@ -1,3 +1,69 @@
+# [AOF/FH-v1.0.5] - 2023.02.10
+### Fixed
+- Fixed Some of Quests rewards
+### Added
+- Added Inventory Profiles Next
+- Added libIPN
+- Added WeatherControl
+- Added Dungeons Gear
+### Changed
+- Updated Forge version to 40.2.1
+- Updated Additional Lanterns
+- Updated AE2 Things
+- Updated Architectury API
+- Updated Balm
+- Updated Bamboo Everything
+- Updated Bygone Nether
+- Updated Climb Ladders Fast
+- Updated CodeChicken Lib 1.8.+
+- Updated CoFH Core
+- Updated Collective
+- Updated Corail Tombstone
+- Updated Enlightened End
+- Updated Ensorcellation
+- Updated Experience Obelisk
+- Updated FTB Chunks
+- Updated FTB Teams
+- Updated Immersive Engineering
+- Updated In Control!
+- Updated KubeJS
+- Updated Macaw's Doors
+- Updated Macaw's Lights and Lamps
+- Updated Majrusz Library
+- Updated Majrusz's Progressive Difficulty
+- Updated Measurements
+- Updated Mob Grinding Utils
+- Updated More Music Discs
+- Updated Moving Elevators
+- Updated Mystical Agriculture
+- Updated Pam's HarvestCraft 2 – Trees
+- Updated Re-chiseled
+- Updated Redstone Arsenal
+- Updated RFTools Base
+- Updated RFTools Control
+- Updated RFTools Utility
+- Updated Shield Parry
+- Updated Simple Discord Rich Presence
+- Updated Supplementaries
+- Updated SuperMartijn642's Core Lib
+- Updated Tesseract
+- Updated The Lost Cities
+- Updated Thermal Cultivation
+- Updated Thermal Expansion
+- Updated Thermal Foundation
+- Updated Thermal Innovation
+- Updated Thermal Integration
+- Updated Thermal Locomotion
+- Updated Tinkers Construct
+- Updated Tinkers' Levelling Addon
+- Updated Tool's Complement
+- Updated XNet
+### Removed
+- Removed Stack Refill
+- Removed Villagers Respawn
+- Removed Flat Bedrock
+- Removed Dungeons Weaponry
+- Removed TOP Addons
 # [AOF/FH-v1.0.4] - 2023.01.24
 ### Fixed
 - Fixed The Nether quests
