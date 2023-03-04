@@ -1,3 +1,84 @@
+# [AOF/FH-v1.0.6] - 2023.03.04
+### Fixed
+- Fixed Greek Fantasy loot table
+- Fixed Hexerei recipes doesn’t showing in JEI
+- Fixed a lot of missing recipes
+### Added
+- Added Mana & Artifice Quests
+- Added Forbidden & Arcanus Quests
+- Added Hexerei Quests
+- Added 15 new Quest to The End chapter
+- Added Carrots Library Tough As Nails Plugin
+- Added Let Me Despawn
+- Added Fuel Goes Here
+- Added Entangled Fix
+- Added Thermal Dynamics
+- Added Draconic Evolution
+- Added BrandonsCore
+- Added Golden Hopper
+### Changed
+- Reverted Just Enough Items (JEI) to v. 9.7.2.266
+- Updated Additional Lanterns
+- Updated Balm
+- Updated BrassAmber BattleTowers
+- Updated Building Gadgets
+- Updated Chalk
+- Updated Collective
+- Updated Comforts
+- Updated Common Capabilities
+- Updated Construction Wand
+- Updated Crafting Tweaks
+- Updated CreativeCore
+- Updated Curios API
+- Updated Cyclic
+- Updated Default Options
+- Updated EnhancedVisuals
+- Updated Enlightened End
+- Updated Entangled
+- Updated Entity Culling
+- Updated EvilCraft
+- Updated Extreme Reactors
+- Updated Fire Spread Tweaks
+- Updated FTB Backups 2
+- Updated FTB Library
+- Updated FTB Quests
+- Updated Healing Campfire
+- Updated Immersive Engineering
+- Updated Industrial Foregoing
+- Updated Inventory Essentials
+- Updated Item Collectors
+- Updated JourneyMap
+- Updated Kotlin for Forge
+- Updated Macaw's Furniture
+- Updated Materialis
+- Updated Mystical Agriculture
+- Updated NetherPortalFix
+- Updated Primitive Start
+- Updated Puzzles Lib
+- Updated ReAuth
+- Updated Refined Storage
+- Updated ShetiPhianCore
+- Updated ServerConfig Updater
+- Updated Sit
+- Updated Snow Under Trees
+- Updated SuperMartijn642's Core Lib
+- Updated Tesseract
+- Updated The Lost Cities
+- Updated Tinkers Construct
+- Updated Tinkers Reforged
+- Updated Trash Cans
+- Updated TrashSlot
+- Updated Updated Trash Cans
+- Updated Waystones
+- Updated Weaker Spiderwebs
+- Updated Wireless Chargers
+- Updated XNet
+- Updated ZeroCore 2
+### Removed
+- Removed No Night Vision Flashing
+- Removed Precise Block Placing
+- Removed Bed Benefits
+- Removed Avaritia Furnace
 # [AOF/FH-v1.0.5] - 2023.02.10
 ### Fixed
 - Fixed Some of Quests rewards
