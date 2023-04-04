@@ -1,3 +1,98 @@
+# [AOF/FH-v1.0.7] - 2023.04.04
+### Fixed
+- Fixed Snow layers producing lag issue
+- Potentially fixed crazy amount of XP levels issue
+- Fixed FPS issue (before was 20-30 now is above 150)
+### Added
+- Added NEW Tinker’s Construct Quests
+- Added NEW Immersive Engineering Quests
+- Added Tom's Simple Storage Quests
+- Added Extra Utilities Reborn Quests
+- Added Aquaculture Quests
+- Added Buddycards Quests
+- Added Bounty Board Quests
+- Added Player Shop Quests
+- Added Store Quests with 9 new Chapters
+- Added Iron Furnaces & Generators Quests
+- Added Easy Breeding
+- Added Tom's Simple Storage
+- Added DimStorage
+- Added Tinkers' Integrations and Tweaks
+- Added Fastload
+- Added Vacuum Chest
+- Added Buddycards
+- Added Tiny Coal
+- Added Draconic Additions
+- Added TOP Addons
+- Added Starlight
+### Changed
+- Updated Almost Unified
+- Updated Artifacts
+- Updated Aquaculture 2
+- Updated Balm
+- Updated Better Villages
+- Updated BisectHosting Server Integration Menu
+- Updated Bookshelf
+- Updated Canary
+- Updated Collective
+- Updated Configured
+- Updated Corail Woodcutter
+- Updated Corail Tombstone
+- Updated Cyclops Core
+- Updated Dank Storage
+- Updated Dungeon Crawl
+- Updated Enchant With Mob
+- Updated Enlightened End
+- Updated EvilCraft
+- Updated Experience Obelisk
+- Updated Extended Crafting
+- Updated Fire Spread Tweaks
+- Updated Forbidden and Arcanus
+- Updated FramedBlocks
+- Updated FTB Chunks
+- Updated FTB Essentials
+- Updated Inventory HUD+
+- Updated Inventory Profiles Next
+- Updated JourneyMap
+- Updated JourneyMap Integration
+- Updated Jump Over Fences
+- Updated Just Enough Items (JEI) to v. 9.7.2.1001
+- Updated Kotlin for Forge
+- Updated libIPN
+- Updated Library Ferret
+- Updated Lootr
+- Updated Macaw's Bridges
+- Updated Macaw's Doors
+- Updated Macaw's Roofs
+- Updated Macaw's Trapdoors
+- Updated Majrusz Library
+- Updated Majrusz's Progressive Difficulty
+- Updated Materialis
+- Updated Moving Elevators
+- Updated NoCube's Villagers Sell Animals
+- Updated Pluto
+- Updated SebastrnLib
+- Updated Security Craft
+- Updated Sophisticated Backpacks
+- Updated Sophisticated Core
+- Updated Sophisticated Storage
+- Updated Stalwart Dungeons
+- Updated SuperMartijn642's Core Lib
+- Updated The Lost Cities
+- Updated Tinkers Reforged
+- Updated Vanilla AIOTs
+- Updated Villager Names
+- Updated Weaker Spiderwebs
+- Updated YUNG's API
+### Removed
+- Removed Epic Fight
+- Removed Tips
+- Removed Snow! Real Magic! ⛄
+- Removed Ice Prevents Crop Growth
+- Removed DEUF - Duplicate Entity UUID Fix
+- Removed It Shall Not Tick (ISNT)
+- Removed Simple Storage Network
+- Removed ServerConfig Updater
 # [AOF/FH-v1.0.6] - 2023.03.04
 ### Fixed
 - Fixed Greek Fantasy loot table
