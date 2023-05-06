@@ -1,3 +1,56 @@
+# [AOF/FH-v1.0.8] - 2023.05.06
+### Changed
+- Updated Forge version to 40.2.2
+- Updated Almost Unified
+- Updated Applied Botanics Addon
+- Updated Applied Energistics 2
+- Updated Aquaculture 2
+- Updated Architectury API
+- Updated Armor Underwear
+- Updated Better Villages
+- Updated BisectHosting Server Integration Menu
+- Updated Canary
+- Updated Carrots Library
+- Updated Carrots Library Tough As Nails Plugin
+- Updated Corail Tombstone
+- Updated Cyclops Core
+- Updated Eccentric Tome
+- Updated Experience Obelisk
+- Updated FramedBlocks
+- Updated FTB Chunks
+- Updated In Control!
+- Updated Inventory Profiles Next
+- Updated libIPN
+- Updated JourneyMap
+- Updated Konkrete
+- Updated Kotlin for Forge
+- Updated Mantle
+- Updated Mob Grinding Utils
+- Updated Moving Elevators
+- Updated Oculus
+- Updated Placebo
+- Updated Primitive Start
+- Updated RFTools Builder
+- Updated Re-chiseled
+- Updated Rubidium
+- Updated Rubidium Extra
+- Updated Saturn
+- Updated Sophisticated Backpacks
+- Updated spark
+- Updated Sophisticated Core
+- Updated Sophisticated Storage
+- Updated Sophisticated Backpacks
+- Updated Stalwart Dungeons
+- Updated SuperMartijn642's Core Lib
+- Updated Supplementaries
+- Updated Tesseract
+- Updated TexTrue's Rubidium Options
+- Updated The Lost Cities
+- Updated Tinkers Construct
+- Updated Tinkers Reforged
+- Updated Titanium
+- Updated Tom's Simple Storage
+- Updated Waystones
 # [AOF/FH-v1.0.7] - 2023.04.04
 ### Fixed
 - Fixed Snow layers producing lag issue
