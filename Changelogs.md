@@ -1,3 +1,95 @@
+# [AOF/FH-v1.0.9] - 2023.22.06
+### Fixed
+- Fixed Missing recipes (#1)
+### Added
+- Added Lightspeed - Launch optimizations
+- Added ImmediatelyFast Reforged
+- Added CullLessLeaves Reforged
+- Added It Shall Not Tick (ISNT)
+- Added Better Fps - Render Distance
+- Added Dynamic View
+- Added Alternate Current
+- Added Chunky
+- Added Connectedness
+- Added Better Runtime Resource Pack (BRRP)
+- Added Reforgium
+- Added Magnesium/Rubidium Dynamic Lights
+- Added Sound Physics Remastered
+- Added Dynamic Surroundings Resurrected
+- Added Better Bundles
+- Added YDM's Weapon Master
+- Added ModernFix
+### Changed
+- Updated Forge version to 40.2.9
+- Updated Additional Lanterns
+- Updated Applied Energistics 2
+- Updated Ars Nouveau
+- Updated BisectHosting Server Integration Menu
+- Updated Bookshelf
+- Updated Brandon's Core
+- Updated BrassAmber BattleTowers
+- Updated Canary
+- Updated Chalk
+- Updated Collective
+- Updated Controlling
+- Updated Corail Tombstone
+- Updated Cucumber Library
+- Updated Curios API
+- Updated Cyclic
+- Updated Cyclops Core
+- Updated Dark Utilities
+- Updated Diagonal Fences
+- Updated Eccentric Tome
+- Updated Entangled
+- Updated EvilCraft
+- Updated Experience Obelisk
+- Updated Extreme Reactors
+- Updated Fastload
+- Updated FramedBlocks
+- Updated FTB Backups 2
+- Updated FTB Essentials
+- Updated FTB Teams
+- Updated Gauges and Switches
+- Updated In Control!
+- Updated Inventory Profiles Next
+- Updated Item Filters
+- Updated JourneyMap
+- Updated Kiwi 🥝
+- Updated KubeJS Additions
+- Updated libIPN
+- Updated Lighting Wand 🌟
+- Updated Lootr
+- Updated Macaw's Bridges
+- Updated Macaw's Roofs
+- Updated Macaw's Trapdoors
+- Updated Majrusz Library
+- Updated Majrusz's Progressive Difficulty
+- Updated Materialis
+- Updated Mob Grinding Utils
+- Updated More Music Discs
+- Updated Moving Elevators
+- Updated Mystical Agradditions
+- Updated Mystical Agriculture
+- Updated Oculus
+- Updated Platforms
+- Updated Powah!
+- Updated Puzzles Lib
+- Updated Quests Additions
+- Updated Re-chiseled
+- Updated ShetiPhianCore
+- Updated Sophisticated Backpacks
+- Updated Sophisticated Core
+- Updated Sophisticated Storage
+- Updated Supplementaries
+- Updated SuperMartijn642's Core Lib
+- Updated Tesseract
+- Updated The Lost Cities
+- Updated Tinkers Reforged
+- Updated Tinkers' Integrations and Tweaks
+- Updated Tinkers' Levelling Addon
+- Updated Torchmaster
+- Updated Wireless Chargers
+- Updated ZeroCore 2
 # [AOF/FH-v1.0.8] - 2023.05.06
 ### Changed
 - Updated Forge version to 40.2.2
