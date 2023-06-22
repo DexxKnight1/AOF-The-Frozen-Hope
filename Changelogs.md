@@ -1,4 +1,4 @@
-# [AOF/FH-v1.0.9] - 2023.22.06
+# [AOF/FH-v1.0.9] - 2023.06.22
 ### Fixed
 - Fixed Missing recipes (#1)
 ### Added
