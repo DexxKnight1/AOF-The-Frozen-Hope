@@ -1,4 +1,4 @@
-# AoF-The Frozen Hope
+# AOF: The Frozen Hope
 
 ![banner_frozen_hope](https://user-images.githubusercontent.com/78975662/206298659-13f77cda-49e9-4522-b884-eadc5658645c.png)
 
