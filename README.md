@@ -81,6 +81,7 @@ Do you like to play **AoF** modpack with your friends and you need a hosting ser
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/cooking-for-blockheads">Cooking for Blockheads (by BlayTheNinth)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/cucumber">Cucumber Library (by BlakeBr0)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/macaws-lights-and-lamps">Macaw's Lights and Lamps (by sketch_macaw)</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/enchant-with-mob">Enchant With Mob (by bagu_chan500)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/supermartijn642s-core-lib">SuperMartijn642's Core Lib (by SuperMartijn642)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/tinkers-reforged">Tinkers Reforged (by Mrthomas20121)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/druidcraft">Druidcraft (by VulpTheHorseDog2)</a></li>
@@ -188,7 +189,6 @@ Do you like to play **AoF** modpack with your friends and you need a hosting ser
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/shutup-experimental-settings">Shutup Experimental Settings! (by Corgi_Taco)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/forgetmechunk-forge">ForgetMeChunk (Forge) (by AbdElAziz333)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/extreme-reactors">Extreme Reactors (by ZeroNoRyouki)</a></li>
-<li><a href="https://www.curseforge.com/minecraft/mc-mods/project-391187">project-391187 (by bagu_chan500)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/wireless-chargers">Wireless Chargers (by SuperMartijn642)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/ferritecore">FerriteCore ((Neo)Forge) (by malte0811)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/nekos-enchanted-books">Neko's Enchanted Books (by Nekomaster1000)</a></li>
@@ -230,6 +230,7 @@ Do you like to play **AoF** modpack with your friends and you need a hosting ser
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/mekanism-additions">Mekanism Additions (by bradyaidanc)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/bisecthosting-server-integration-menu-forge">BisectHosting Server Integration Menu [FORGE] (by BisectHosting)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/ae2-things-forge">AE2 Things [Forge] (by thetechnici4n)</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/bagus-lib">Bagus Lib (by bagu_chan500)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/botania">Botania (by Vazkii)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/werewolves-become-a-beast">Werewolves - Become a Beast! (by Cheaterpaul)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/applied-cooking">Applied Cooking (by ItsSebastrn)</a></li>
