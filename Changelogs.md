@@ -1,3 +1,49 @@
+# [AOF/FH-v1.1.0] - 2024.04.24
+### Fixed
+- Fixed The FTB Teams invites not working hopefully
+- Fixed Quests issues
+### Added
+- Added Adaptive Performance Tweaks (Bundle)
+- Added Embeddium
+- Added Embeddium++
+- Added TexTrue's Embeddium Options
+- Added Faster Ladder Climbing
+- Added Advanced Backups
+- Added Redirector [Modern]
+- Added [ETF] Entity Texture Features
+- Added [EMF] Entity Model Features
+- Added Too Fast
+- Added Structure Essentials
+- Added Client Crafting
+- Added fix GPU memory leak
+- Added Leaky - Farm leak detection
+- Added DrawerFPS
+- Added Better Biome Blend
+- Added FTB Ranks with custom Ranks from ModernGamingWorld
+### Changed
+- Updated Forge version to 40.2.18
+- Updated All mods that could be updated
+### Removed
+- Removed Absent by Design
+- Removed Additional Lanterns
+- Removed Champions
+- Removed Crash Utilities
+- Removed JEI Integration
+- Removed Login Protection
+- Removed Sound Physics Remastered
+- Removed KubeJS Blood Magic
+- Removed KubeJS Tinkers Construct
+- Removed Canary
+- Removed Climb Ladders Fast
+- Removed ItemPhysic Full
+- Removed Rubidium
+- Removed Embeddium/Rubidium Extras
+- Removed Embeddium/Rubidium Dynamic Lights
+- Removed FTB Backups 2
+- Removed Entity Culling
+- Removed FastFurnace
+- Removed FastWorkbench
+- Removed FixMySpawnR
 # [AOF/FH-v1.0.9] - 2023.06.22
 ### Fixed
 - Fixed Missing recipes (#1)
